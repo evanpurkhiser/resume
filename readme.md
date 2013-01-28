@@ -10,12 +10,6 @@ browse around the repository a little.
 
 *Note: This is still a work in progress, I know there isn't much here yet*
 
-## How I spend my time
-
-I'm a Software Developer (or Software Engineer if I want to sound impressive), I
-spend my time solving interesting problems by writing clean and understandable
-code. I specialize in web application development and primarily work in the
-
 ## Evan on the Internet
 
 Here's a few of the different places you can find me on the internet
