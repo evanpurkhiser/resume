@@ -4,7 +4,9 @@ Akron, Ohio | (330) 962-1949 | evanpurkhiser@gmail.com | [evanpurkhiser.com](htt
 
 ## Education
 
-Write something about my background here...
+BS - Computer Science
+Fall 2009 - Fall 2013
+**Akron, Ohio - The University of Akron**
 
 ## Qualifications and Skills
 
