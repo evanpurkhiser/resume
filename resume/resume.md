@@ -2,11 +2,11 @@
 
 Akron, Ohio | (330) 962-1949 | evanpurkhiser@gmail.com | [evanpurkhiser.com](http://evanpurkhiser.com)
 
-### Background
+## Education
 
 Write something about my background here...
 
----
+## Qualifications and Skills
 
 ### Education
 
@@ -14,7 +14,7 @@ Well I went to the university of akron, format it here...
 
 ---
 
-### Experience
+## Experience
 
 I've done some work in my days, write about it here...
 
