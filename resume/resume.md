@@ -22,7 +22,7 @@ Fall 2009 - Fall 2013
 ## Experience
 
 ### Acadaware Ltd
-*2011 - Present*  
+*March 2011 - Present*  
 Lead Web Applications Developer
 
  * Developed a web application for managing Experiential Education programs
