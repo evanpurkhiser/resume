@@ -21,7 +21,24 @@ Fall 2009 - Fall 2013
 
 ## Experience
 
-I've done some work in my days, write about it here...
+### Acadaware Ltd
+*2011 - Present*
+Lead Web Applications Developer
+
+ * Developed a web application for managing Experiential Education programs
+ * Responsibilities included all stages of development, from initial requirement
+   gathering to deployment and configuration of a production server environment
+ * Worked as the sole developer to build both the front and back ends of the
+   application. Tasks included:
+   * Architecting the business logic using advanced object oriented concepts
+   * Taking into consideration complex relational database designs
+   * Used the MVC delivery mechanism to structure the web application
+   * Designed the front end of the website using modern web technologies such as
+     HTML5 and CSS3 while taking user experience best practices into
+     consideration to bring a beautiful and intuitive experience to the user
+
+My ongoing work on the Acadaware project has been the largest and most
+rewarding project I've ever undertaken.
 
 ---
 
