@@ -30,12 +30,12 @@ Lead Web Applications Developer
    gathering to deployment and configuration of a production server environment
  - Worked as the sole developer to build both the front and back ends of the
    application. Tasks included:
-   - Architecting the business logic using advanced object oriented concepts
-   - Taking into consideration complex relational database designs
-   - Used the MVC delivery mechanism to structure the web application
-   - Designed the front end of the website using modern web technologies such as
-     HTML5 and CSS3 while also taking user experience best practices into
-     consideration to bring a beautiful and intuitive experience to the user
+    - Architecting the business logic using advanced object oriented concepts
+    - Taking into consideration complex relational database designs
+    - Used the MVC delivery mechanism to structure the web application
+    - Designed the front end of the website using modern web technologies such as
+      HTML5 and CSS3 while also taking user experience best practices into
+      consideration to bring a beautiful and intuitive experience to the user
 
 My ongoing work on the Acadaware project has been the largest and most
 rewarding project I've ever undertaken.
