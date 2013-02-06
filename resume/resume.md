@@ -51,5 +51,5 @@ Lead Web Applications Developer
    as the ability to quickly review code changes
 
 Working on the Quixby project over the summer was an exciting opportunity to
-experience the world of startups. I learned a lot during this time about how to
-rapidly develop software as part of a small tight knit team.
+experience the world of startups as well as a chance work with a small tight
+knit team.
