@@ -34,12 +34,22 @@ Lead Web Applications Developer
    * Taking into consideration complex relational database designs
    * Used the MVC delivery mechanism to structure the web application
    * Designed the front end of the website using modern web technologies such as
-     HTML5 and CSS3 while taking user experience best practices into
+     HTML5 and CSS3 while also taking user experience best practices into
      consideration to bring a beautiful and intuitive experience to the user
 
 My ongoing work on the Acadaware project has been the largest and most
 rewarding project I've ever undertaken.
 
----
+### Quixby LLC
+*Summer 2011*
+Lead Web Applications Developer
 
-Evan Purkhser - http://evanpurkhiser.com
+ * Developed the minimum viable product for an Akron based startup
+ * Worked closely with the company founders including a second developer
+ * Designed a complex relational system for matching PC parts by comparability
+ * Used the Git VCS to allow easy collaboration between developers as well
+   as the ability to quickly review code changes
+
+Working on the Quixby project over the summer was an exciting opportunity to
+experience the world of startups. I learned a lot during this time about how to
+rapidly develop software as part of a small tight knit team.
