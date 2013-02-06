@@ -10,11 +10,14 @@ Fall 2009 - Fall 2013
 
 ## Qualifications and Skills
 
-### Education
+ * **Languages**
+   PHP, SQL, JavaScript, HTML5, CSS3, SASS
 
-Well I went to the university of akron, format it here...
+ * **Software**
+   Bash, Git, SVN, VIM, GNU Coreutils, Sublime Text, Apache, MySQL
 
----
+ * **Environments**
+   GNU/Linux, Windows
 
 ## Experience
 
