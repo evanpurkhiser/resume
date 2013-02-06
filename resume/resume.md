@@ -14,7 +14,7 @@ Fall 2009 - Fall 2013
    PHP, SQL, JavaScript, HTML5, CSS3, SASS
 
  * **Software**
-   Bash, Git, SVN, VIM, GNU Coreutils, Sublime Text, Apache, MySQL
+   Bash, Git, SVN, VIM, GNU Coreutils, Apache, MySQL
 
  * **Environments**
    GNU/Linux, Windows
