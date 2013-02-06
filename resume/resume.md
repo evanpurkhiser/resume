@@ -4,25 +4,25 @@ Akron, Ohio | (330) 962-1949 | evanpurkhiser@gmail.com | [evanpurkhiser.com](htt
 
 ## Education
 
-BS - Computer Science
-Fall 2009 - Fall 2013
+BS - Computer Science  
+Fall 2009 - Fall 2013  
 **Akron, Ohio - The University of Akron**
 
 ## Qualifications and Skills
 
- * **Languages**
+ * **Languages**  
    PHP, SQL, JavaScript, HTML5, CSS3, SASS
 
- * **Software**
+ * **Software**  
    Bash, Git, SVN, VIM, GNU Coreutils, Apache, MySQL
 
- * **Environments**
+ * **Environments**  
    GNU/Linux, Windows
 
 ## Experience
 
 ### Acadaware Ltd
-*2011 - Present*
+*2011 - Present*  
 Lead Web Applications Developer
 
  * Developed a web application for managing Experiential Education programs
@@ -41,7 +41,7 @@ My ongoing work on the Acadaware project has been the largest and most
 rewarding project I've ever undertaken.
 
 ### Quixby LLC
-*Summer 2011*
+*Summer 2011*  
 Lead Web Applications Developer
 
  * Developed the minimum viable product for an Akron based startup
