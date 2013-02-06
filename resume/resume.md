@@ -10,13 +10,13 @@ Fall 2009 - Fall 2013
 
 ## Qualifications and Skills
 
- * **Languages**  
-   PHP, SQL, JavaScript, HTML5, CSS3, SASS
+ - **Languages**  
+   PHP, SQL, JavaScript, HTML5, CSS3, SASS,
 
- * **Software**  
+ - **Software**  
    Bash, Git, SVN, VIM, GNU Coreutils, Apache, MySQL
 
- * **Environments**  
+ - **Environments**  
    GNU/Linux, Windows
 
 ## Experience
@@ -25,15 +25,15 @@ Fall 2009 - Fall 2013
 *March 2011 - Present*  
 Lead Web Applications Developer
 
- * Developed a web application for managing Experiential Education programs
- * Responsibilities included all stages of development, from initial requirement
+ - Developed a web application for managing Experiential Education programs
+ - Responsibilities included all stages of development, from initial requirement
    gathering to deployment and configuration of a production server environment
- * Worked as the sole developer to build both the front and back ends of the
+ - Worked as the sole developer to build both the front and back ends of the
    application. Tasks included:
-   * Architecting the business logic using advanced object oriented concepts
-   * Taking into consideration complex relational database designs
-   * Used the MVC delivery mechanism to structure the web application
-   * Designed the front end of the website using modern web technologies such as
+   - Architecting the business logic using advanced object oriented concepts
+   - Taking into consideration complex relational database designs
+   - Used the MVC delivery mechanism to structure the web application
+   - Designed the front end of the website using modern web technologies such as
      HTML5 and CSS3 while also taking user experience best practices into
      consideration to bring a beautiful and intuitive experience to the user
 
@@ -44,10 +44,10 @@ rewarding project I've ever undertaken.
 *Summer 2011*  
 Lead Web Applications Developer
 
- * Developed the minimum viable product for an Akron based startup
- * Worked closely with the company founders including a second developer
- * Designed a complex relational system for matching PC parts by comparability
- * Used the Git VCS to allow easy collaboration between developers as well
+ - Developed the minimum viable product for an Akron based startup
+ - Worked closely with the company founders including a second developer
+ - Designed a complex relational system for matching PC parts by comparability
+ - Used the Git VCS to allow easy collaboration between developers as well
    as the ability to quickly review code changes
 
 Working on the Quixby project over the summer was an exciting opportunity to
