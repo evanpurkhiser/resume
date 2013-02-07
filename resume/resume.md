@@ -11,7 +11,7 @@ Fall 2009 - Fall 2013
 ## Qualifications and Skills
 
  - **Languages**  
-   PHP, SQL, JavaScript, HTML5, CSS3, SASS,
+   PHP, SQL, JavaScript, HTML5, CSS3, SASS
 
  - **Software**  
    Bash, Git, SVN, VIM, GNU Coreutils, Apache, MySQL
