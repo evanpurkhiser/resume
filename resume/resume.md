@@ -46,7 +46,7 @@ Lead Web Applications Developer
 
  - Developed the minimum viable product for an Akron based startup
  - Worked closely with the company founders including a second developer
- - Designed a complex relational system for matching PC parts by comparability
+ - Designed a complex relational system for matching PC parts by compatability
  - Used the Git VCS to allow easy collaboration between developers as well
    as the ability to quickly review code changes
 
