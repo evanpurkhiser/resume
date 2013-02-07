@@ -1,6 +1,6 @@
 # Evan Purkhiser
 
-Akron, Ohio • (330) 962-1949 • evanpurkhiser@gmail.com • [evanpurkhiser.com](http://evanpurkhiser.com)
+Akron, Ohio – (330) 962-1949 – evanpurkhiser@gmail.com – [evanpurkhiser.com](http://evanpurkhiser.com)
 
 ## Education
 
@@ -51,4 +51,5 @@ Lead Web Applications Developer
    as the ability to quickly review code changes
 
 Working on the Quixby project over the summer was an exciting opportunity to
-experience the world of startups as well as a chance work an agile environment.
+experience the world of startups as well as a chance work in an agile
+environment.
