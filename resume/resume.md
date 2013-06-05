@@ -22,7 +22,7 @@ Fall 2009 - Fall 2013
 ## Experience
 
 ### Acadaware Ltd
-*March 2011 - Present*  
+*March 2011 - June 2013*  
 Lead Web Applications Developer
 
  - Developed a web application for managing Experiential Education programs
@@ -37,8 +37,8 @@ Lead Web Applications Developer
       HTML5 and CSS3 while also taking user experience best practices into
       consideration to bring a beautiful and intuitive experience to the user
 
-My ongoing work on the Acadaware project has been the largest and most
-rewarding project I've ever undertaken.
+My work on the Acadaware project has been the largest and most rewarding project
+I've ever undertaken.
 
 ### Quixby LLC
 *Summer 2011*  
