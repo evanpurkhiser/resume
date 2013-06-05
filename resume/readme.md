@@ -4,7 +4,7 @@ This section of the repository contains my resume written in
 [markdown](http://daringfireball.net/projects/markdown/).
 
 I'm not a big fan of filling my resume with over-hyped trendy technology
-buzzwords. The skills listed on my resume are the skills I belove I have enough
+buzzwords. The skills listed on my resume are the skills I believe I have enough
 experience with to be able to jump into any project and get going right away.
 Sure I have done my fair share of tinkering with things like C++, Java, Python,
 Lua, or whatever, but I wouldn't consider these something that I could say I'm
