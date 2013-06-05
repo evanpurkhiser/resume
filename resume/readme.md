@@ -12,6 +12,8 @@ highly experienced with. Of course, that's not to say I'm not a fast learner. I
 would love to pickup a new technology and build something cool learn about how
 it works!
 
+Also please don't ask for my resume in Microsoft Word format!
+
 You can either...
 
  * [View my resume on GitHub](resume.md)
