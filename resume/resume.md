@@ -28,8 +28,8 @@ Lead Web Applications Developer
  - Developed a web application for managing Experiential Education programs
  - Responsibilities included all stages of development, from initial requirement
    gathering to deployment and configuration of a production server environment
- - Worked as the sole developer to build both the front and back ends of the
-   application. Tasks included:
+ - Worked as the sole Full-Stack developer to build both the front and back ends
+   of the application. Tasks included:
     - Architecting the business logic using advanced object oriented concepts
     - Taking into consideration complex relational database designs
     - Used the MVC delivery mechanism to structure the web application
