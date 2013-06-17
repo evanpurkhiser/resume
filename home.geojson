@@ -8,6 +8,7 @@
 	"properties":
 	{
 		"name": "Evan's Home",
+		"address": "876 Lafayette Dr",
 		"marker-symbol": "lodging"
 	}
 }
