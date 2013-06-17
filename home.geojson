@@ -1,0 +1,12 @@
+{
+	"type": "Feature",
+	"geometry":
+	{
+		"type": "Point",
+		"coordinates": [-81.53713, 41.1176699]
+	},
+	"properties":
+	{
+		"name": "Evan's Home"
+	}
+}
