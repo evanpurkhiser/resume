@@ -5,7 +5,7 @@ Akron, Ohio – (330) 962-1949 – evanpurkhiser@gmail.com – [evanpurkhiser.co
 ## Education
 
 BS - Computer Science  
-Fall 2009 - Fall 2013  
+Graduated Fall 2013 - 3.5 GPA  
 **Akron, Ohio - The University of Akron**
 
 ## Qualifications and Skills
