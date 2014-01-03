@@ -14,7 +14,7 @@ Graduated Fall 2013 - 3.5 GPA
    PHP, SQL, JavaScript, HTML5, CSS3, SASS, Ruby
 
  - **Software**  
-   Bash, Git, SVN, VIM, GNU Coreutils, Vagrant, Apache, MySQL
+   Bash, Git, SVN, VIM, GNU Coreutils, Vagrant, Chef-Solo, Apache, MySQL
 
  - **Environments**  
    GNU/Linux, Windows
