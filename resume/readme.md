@@ -9,8 +9,8 @@ experience with to be able to jump into any project and get going right away.
 Sure I have done my fair share of tinkering with things like C++, Java, Python,
 Lua, or whatever, but I wouldn't consider these something that I could say I'm
 highly experienced with. Of course, that's not to say I'm not a fast learner. I
-would love to pickup a new technology and build something cool learn about how
-it works!
+would love to pickup a new technology and build something cool to learn about
+how it works!
 
 Also please don't ask for my resume in Microsoft Word format!
 
