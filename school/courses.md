@@ -1,65 +1,77 @@
-> This transcript assumes the completion of the Spring 2013 semester. All courses after Spring 2013 are considered "Upcoming" and are not counted in the credit counts
+This is a transcript of the courses I completed during my college career at
+[The University of Akron](http://www.uakron.edu/).
 
-## General Education Courses [Completed 42/42 (-2) (Total 40)]
+# Computer Science Specific Courses
 
-All General Education classes are completed as of Fall of 2012. I received +1 extra credit for my English requirement,
-however, the 3 credits for mathematics count towards the CS core curriculum. So we must make a -2 adjustment to the
-credits to even things out. An extra two credits will be required to graduate (the adjustment can be seen in the `Other
-Courses` category.
+I completed the Computer Science [Systems Track
+courses](http://www.uakron.edu/computer-science/academics/undergraduate-programs/bscs-system.dot)
+for my degree.
 
-## Computer Science Courses [Completed 75/75]
+| Course Number | Year / Semester | Course Name                                      | Grade |
+|---------------|-----------------|--------------------------------------------------|-------|
+| 3460:209      | 2009 / Fall     | Introduction to Computer Science                 | A     |
+| 3460:210      | 2010 / Spring   | Data Structures and Algorithms I                 | A     |
+| 3460:316      | 2010 / Fall     | Data Structures and Algorithms II                | B     |
+| 3460:307      | 2011 / Spring   | Internet Systems Programming                     | A     |
+| 3460:408      | 2011 / Spring   | Windows Programming                              | A-    |
+| 3460:421      | 2011 / Fall     | Object-Oriented Programming                      | A     |
+| 3460:428      | 2011 / Fall     | UNIX Systems Programming                         | A     |
+| 3460:475      | 2011 / Fall     | Database Management                              | A     |
+| 3460:435      | 2012 / Spring   | Algorithms                                       | A     |
+| 3460:480      | 2012 / Spring   | Software Engineering                             | A     |
+| 3460:457      | 2012 / Fall     | Computer Graphics                                | A     |
+| 3460:426      | 2013 / Spring   | Operating Systems                                | A     |
+| 3460:453      | 2013 / Spring   | Computer Security                                | B     |
+| 3460:490      | 2013 / Spring   | Senior Seminar in Computer Science               | A     |
+| 4450:320      | 2013 / Spring   | Computer Systems                                 | A     |
+| 3460:460      | 2013 / Fall     | Artificial Intelligence & Heuristics Programming | A     |
+| 3460:477      | 2013 / Fall     | Introduction to Parallel Processing              | A     |
+| 3460:489      | 2013 / Fall     | Special TopiciOS Development                     | A     |
+| 3460:689      | 2013 / Fall     | Advanced Topic: Software Evolution               | A     |
+| 3460:497      | 2013 / Fall     | Individual Study: [dots](/EvanPurkhiser/dots)    | A     |
+|---------------|-----------------|--------------------------------------------------|-------|
 
-This follows the
-[Systems Track courses](http://www.uakron.edu/computer-science/academics/undergraduate-programs/bscs-system.dot) as
-defined by the CS department.
+# General Education Courses
 
-### Foreign Language Requirement [Complete 14/14]
+I've separated this out into two sections, courses I found interesting, and
+courses I didn't have much interest in taking but needed the credits.
 
- * 4 | Spanish 101
- * 4 | Spanish 102
- * 3 | Spanish 201
- * 3 | Spanish 202
+### Interesting Courses
 
-### Core Computer Courses [Complete 46/46]
+| Course Number | Year / Semester | Course Name                                      | Grade |
+|---------------|-----------------|--------------------------------------------------|-------|
+| 3450:208      | 2009 / Fall     | Introduction to Discrete Math                    | B     |
+| 3450:221      | 2010 / Spring   | Analytic Geometry-Calculus I                     | A-    |
+| 3450:208      | 2010 / Fall     | Analytic Geometry-Calculus II                    | A-    |
+| 3600:170      | 2010 / Spring   | Introduction to Logic                            | A     |
+| 3650:291      | 2012 / Spring   | Elementary Classical Physics I                   | A     |
+| 3470:401      | 2012 / Fall     | Probability & Statistics for Engineers           | A     |
+|---------------|-----------------|--------------------------------------------------|-------|
 
- * 4 | Introduction to Discreet Math
- * 4 | Introduction to Computer Science
- * 4 | Data Structures & Algorithms I  **[Counts As: CS II]**
- * 4 | Analytical Calculus I
- * 4 | Analytical Calculus II
- * 3 | Internet Systems Programming
- * 3 | Data Structures & Algorithms II **[Counts As: Data Structures]**
- * 3 | Object Oriented Programming
- * 3 | Algorithms
- * 3 | Software Engineering
- * 2 | Probability and Statistics for Engineers
- * 3 | Senior Seminar in Computer Science
- * 3 | Computer Systems
- * 3 | Operating Systems
+### Non-interesting Courses
 
-### Elective Computer Courses [Complete 9/9]
+| Course Number | Year / Semester | Course Name                                      | Grade |
+|---------------|-----------------|--------------------------------------------------|-------|
+| 3300:111      | 2009 / Fall     | English Composition I                            | B+    |
+| 3300:112      | 2010 / Spring   | English Composition II                           | A     |
+| 7600:105      | 2009 / Fall     | Introduction to Public Speaking                  | A     |
+| 3230:251      | 2010 / Fall     | Human Diversity                                  | A     |
+| 3250:200      | 2011 / Spring   | Principles of Microeconomics                     | A-    |
+| 3560:210      | 2011 / Spring   | Japanese Culture Through Film                    | A     |
+| 2040:243      | 2011 / Fall     | Contemporary Global Issues                       | A     |
+| 3400:210      | 2012 / Spring   | Humanities in the Western Tradition              | B-    |
+| 3370:126      | 2012 / Fall     | Natural Disasters & Geology                      | C+    |
+| 3370:171      | 2012 / Fall     | Introduction to the Oceans                       | B+    |
+| 7800:301      | 2012 / Fall     | Introduction to Theater Through Film             | B+    |
+| 3580:101      | 2010 / Fall     | Beginning Spanish I                              | C-    |
+| 3580:102      | 2010 / Spring   | Beginning Spanish II                             | C-    |
+| 3580:201      | 2010 / Fall     | Intermediate Spanish I                           | B-    |
+| 3580:202      | 2011 / Spring   | Intermediate Spanish I                           | C     |
+| 5540:123      | 2012 / Spring   | Physical Education: Bowling                      | A     |
+| 3580:202      | 2011 / Spring   | Physical Education: Billiards                    | A     |
+|---------------|-----------------|--------------------------------------------------|-------|
 
- * 3 | Database Management
- * 3 | Windows Programming
- * 3 | UNIX Systems Programming
+## General Graduation Honors
 
-### Electives or Related to Computer Science [Complete 6/6]
-
- * 3 | Computer Graphics
- * 3 | Computer Security
-
-## Other Courses? [0/11 (+2) Total (13)]
-
-All required computer science courses are completed. However because of the 128
-credit requirement by University I still have 13 credits to accumulate before I
-may graduate.
-
- * 3 | iOS development **[Upcoming Fall 2013]**
-
-Other possible courses:
-
- * 3 | Introduction to Bioinformatics **[Upcoming Fall 2013]**
- * 3 | Artificial Intelligence & Heuristics Programming **[Upcoming Fall 2013]**
- * 3 | Introduction to Parallel Processing **[Upcoming Fall 2013]**
-
-This leaves me with 1 missing credit.
+ * Deans list for all but two semesters: 2010 Fall & 2012 Spring
+ * Graduated with a GPA of 3.536, Cum Laude
