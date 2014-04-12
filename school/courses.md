@@ -7,28 +7,28 @@ I completed the Computer Science [Systems Track
 courses](http://www.uakron.edu/computer-science/academics/undergraduate-programs/bscs-system.dot)
 for my degree.
 
-| Course Number | Year / Semester | Course Name                                      | Grade |
-|---------------|-----------------|--------------------------------------------------|-------|
-| 3460:209      | 2009 / Fall     | Introduction to Computer Science                 | A     |
-| 3460:210      | 2010 / Spring   | Data Structures and Algorithms I                 | A     |
-| 3460:316      | 2010 / Fall     | Data Structures and Algorithms II                | B     |
-| 3460:307      | 2011 / Spring   | Internet Systems Programming                     | A     |
-| 3460:408      | 2011 / Spring   | Windows Programming                              | A-    |
-| 3460:421      | 2011 / Fall     | Object-Oriented Programming                      | A     |
-| 3460:428      | 2011 / Fall     | UNIX Systems Programming                         | A     |
-| 3460:475      | 2011 / Fall     | Database Management                              | A     |
-| 3460:435      | 2012 / Spring   | Algorithms                                       | A     |
-| 3460:480      | 2012 / Spring   | Software Engineering                             | A     |
-| 3460:457      | 2012 / Fall     | Computer Graphics                                | A     |
-| 3460:426      | 2013 / Spring   | Operating Systems                                | A     |
-| 3460:453      | 2013 / Spring   | Computer Security                                | B     |
-| 3460:490      | 2013 / Spring   | Senior Seminar in Computer Science               | A     |
-| 4450:320      | 2013 / Spring   | Computer Systems                                 | A     |
-| 3460:460      | 2013 / Fall     | Artificial Intelligence & Heuristics Programming | A     |
-| 3460:477      | 2013 / Fall     | Introduction to Parallel Processing              | A     |
-| 3460:489      | 2013 / Fall     | Special TopiciOS Development                     | A     |
-| 3460:689      | 2013 / Fall     | Advanced Topic: Software Evolution               | A     |
-| 3460:497      | 2013 / Fall     | Individual Study: [dots](/EvanPurkhiser/dots)    | A     |
+| Course Number | Year / Semester | Course Name                                      | Professor       | Grade |
+|---------------|-----------------|--------------------------------------------------|-----------------|-------|
+| 3460:209      | 2009 / Fall     | Introduction to Computer Science                 | M. Collard      | A     |
+| 3460:210      | 2010 / Spring   | Data Structures and Algorithms I                 | M. Collard      | A     |
+| 3460:316      | 2010 / Fall     | Data Structures and Algorithms II                | Z.-H. Duan      | B     |
+| 3460:307      | 2011 / Spring   | Internet Systems Programming                     | S. Sciarini     | A     |
+| 3460:408      | 2011 / Spring   | Windows Programming                              | Y. Xiao         | A-    |
+| 3460:421      | 2011 / Fall     | Object-Oriented Programming                      | M. Collard      | A     |
+| 3460:428      | 2011 / Fall     | UNIX Systems Programming                         | M. Collard      | A     |
+| 3460:475      | 2011 / Fall     | Database Management                              | K. Batcher      | A     |
+| 3460:435      | 2012 / Spring   | Algorithms                                       | The Worst Ever  | A     |
+| 3460:480      | 2012 / Spring   | Software Engineering                             | M. Collard      | A     |
+| 3460:457      | 2012 / Fall     | Computer Graphics                                | Y. Xiao         | A     |
+| 3460:426      | 2013 / Spring   | Operating Systems                                | T. O'Neil       | A     |
+| 3460:453      | 2013 / Spring   | Computer Security                                | K. Liszka       | B     |
+| 3460:490      | 2013 / Spring   | Senior Seminar in Computer Science               | K. Liszka       | A     |
+| 4450:320      | 2013 / Spring   | Computer Systems                                 | J. Adams        | A     |
+| 3460:460      | 2013 / Fall     | Artificial Intelligence & Heuristics Programming | C.-C. Chan      | A     |
+| 3460:477      | 2013 / Fall     | Introduction to Parallel Processing              | T. O'Neil       | A     |
+| 3460:489      | 2013 / Fall     | Special TopiciOS Development                     | M. Collard      | A     |
+| 3460:689      | 2013 / Fall     | Advanced Topic: Software Evolution               | M. Collard      | A     |
+| 3460:497      | 2013 / Fall     | Individual Study: [dots](http://git.io/Q0szaQ)   | M. Collard      | A     |
 
 # General Education Courses
 
