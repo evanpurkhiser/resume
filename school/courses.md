@@ -29,7 +29,6 @@ for my degree.
 | 3460:489      | 2013 / Fall     | Special TopiciOS Development                     | A     |
 | 3460:689      | 2013 / Fall     | Advanced Topic: Software Evolution               | A     |
 | 3460:497      | 2013 / Fall     | Individual Study: [dots](/EvanPurkhiser/dots)    | A     |
-|---------------|-----------------|--------------------------------------------------|-------|
 
 # General Education Courses
 
@@ -46,7 +45,6 @@ courses I didn't have much interest in taking but needed the credits.
 | 3600:170      | 2010 / Spring   | Introduction to Logic                            | A     |
 | 3650:291      | 2012 / Spring   | Elementary Classical Physics I                   | A     |
 | 3470:401      | 2012 / Fall     | Probability & Statistics for Engineers           | A     |
-|---------------|-----------------|--------------------------------------------------|-------|
 
 ### Non-interesting Courses
 
@@ -69,7 +67,6 @@ courses I didn't have much interest in taking but needed the credits.
 | 3580:202      | 2011 / Spring   | Intermediate Spanish I                           | C     |
 | 5540:123      | 2012 / Spring   | Physical Education: Bowling                      | A     |
 | 3580:202      | 2011 / Spring   | Physical Education: Billiards                    | A     |
-|---------------|-----------------|--------------------------------------------------|-------|
 
 ## General Graduation Honors
 
