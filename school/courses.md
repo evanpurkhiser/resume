@@ -46,7 +46,7 @@ courses I didn't have much interest in taking but needed the credits.
 | 3650:291      | 2012 / Spring   | Elementary Classical Physics I                   | A     |
 | 3470:401      | 2012 / Fall     | Probability & Statistics for Engineers           | A     |
 
-### Non-interesting Courses
+### Not-so-interesting Courses
 
 | Course Number | Year / Semester | Course Name                                      | Grade |
 |---------------|-----------------|--------------------------------------------------|-------|
