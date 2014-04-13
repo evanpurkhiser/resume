@@ -26,7 +26,7 @@ for my degree.
 | 4450:320      | 2013 / Spring   | Computer Systems                                 | J. Adams        | A     |
 | 3460:460      | 2013 / Fall     | Artificial Intelligence & Heuristics Programming | C.-C. Chan      | A     |
 | 3460:477      | 2013 / Fall     | Introduction to Parallel Processing              | T. O'Neil       | A     |
-| 3460:489      | 2013 / Fall     | Special TopiciOS Development                     | M. Collard      | A     |
+| 3460:489      | 2013 / Fall     | Special Topic iOS Development                    | M. Collard      | A     |
 | 3460:689      | 2013 / Fall     | Advanced Topic: Software Evolution               | M. Collard      | A     |
 | 3460:497      | 2013 / Fall     | Individual Study: [dots](http://git.io/Q0szaQ)   | M. Collard      | A     |
 
