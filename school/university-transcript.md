@@ -64,7 +64,7 @@ courses I didn't have much interest in taking but needed the credits.
 | 3580:101      | 2010 / Fall     | Beginning Spanish I                              | C-    |
 | 3580:102      | 2010 / Spring   | Beginning Spanish II                             | C-    |
 | 3580:201      | 2010 / Fall     | Intermediate Spanish I                           | B-    |
-| 3580:202      | 2011 / Spring   | Intermediate Spanish I                           | C     |
+| 3580:202      | 2011 / Spring   | Intermediate Spanish II                          | C     |
 | 5540:123      | 2012 / Spring   | Physical Education: Bowling                      | A     |
 | 3580:202      | 2011 / Spring   | Physical Education: Billiards                    | A     |
 
