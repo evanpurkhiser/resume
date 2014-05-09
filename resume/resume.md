@@ -11,10 +11,11 @@ Graduated Fall 2013 - 3.5 GPA
 ## Qualifications and Skills
 
  - **Languages**  
-   PHP, SQL, JavaScript, HTML5, CSS3, SASS, Ruby
+   PHP, SQL, JavaScript, HTML5, CSS3, SASS, Ruby, Python
 
  - **Software**  
-   Bash, Git, SVN, VIM, GNU Coreutils, Vagrant, Chef-Solo, Apache, MySQL
+   Bash, Git, SVN, Mercurial, VIM, GNU Coreutils, Vagrant, Berkshelf,
+   Chef-Solo, Apache, MySQL, Bower, PHP Composer
 
  - **Environments**  
    GNU/Linux, Windows
