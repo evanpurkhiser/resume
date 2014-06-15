@@ -18,3 +18,4 @@ Here's a few of the different places you can find me on the internet
  * [GitHub account](http://github.com/EvanPurkhiser)
  * [Facebook account](http://facebook.com/EvanPurkhiser)
  * [Reddit account](http://www.reddit.com/user/Evan-Purkhiser)
+ * [Soundcloud account](https://soundcloud.com/evanpurkhiser)
