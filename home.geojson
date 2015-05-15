@@ -3,12 +3,12 @@
 	"geometry":
 	{
 		"type": "Point",
-		"coordinates": [-81.53713, 41.1176699]
+		"coordinates": [-122.4133351, 37.7808295]
 	},
 	"properties":
 	{
 		"name": "Evan's Home",
-		"address": "876 Lafayette Dr",
+		"address": "83 McAllister St",
 		"marker-symbol": "lodging"
 	}
 }
