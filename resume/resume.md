@@ -1,24 +1,23 @@
 # Evan Purkhiser
 
-Akron, Ohio –  evanpurkhiser@gmail.com – [evanpurkhiser.com](http://evanpurkhiser.com)
+San Francisco, California –  evanpurkhiser@gmail.com – [evanpurkhiser.com](http://evanpurkhiser.com)
 
 ## Education
 
 BS - Computer Science  
-Graduated Fall 2013 - 3.5 GPA  
 **Akron, Ohio - The University of Akron**
 
 ## Qualifications and Skills
 
  - **Languages**  
-   PHP, SQL, JavaScript, HTML5, CSS3, SASS, Ruby, Python
+   Golang, PHP, SQL, JavaScript, HTML5, CSS3, SASS, Ruby, Python, C++
 
  - **Software**  
    Bash, Git, SVN, Mercurial, VIM, GNU Coreutils, Vagrant, Berkshelf,
-   Chef-Solo, Apache, MySQL, Bower, PHP Composer
+   Chef-Solo, Ansible, Salt, Apache, MySQL, Bower, PHP Composer, Nginx
 
  - **Environments**  
-   GNU/Linux, Windows
+   GNU/Linux, BSD/macOS
 
 ## Experience
 
