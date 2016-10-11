@@ -1,6 +1,6 @@
 # Evan Purkhiser
 
-Akron, Ohio – (330) 962-1949 – evanpurkhiser@gmail.com – [evanpurkhiser.com](http://evanpurkhiser.com)
+Akron, Ohio –  evanpurkhiser@gmail.com – [evanpurkhiser.com](http://evanpurkhiser.com)
 
 ## Education
 
