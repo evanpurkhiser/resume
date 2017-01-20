@@ -10,14 +10,16 @@ BS - Computer Science 2013
 ## Qualifications and Skills
 
  - **Languages**  
-   Golang, PHP, SQL, JavaScript, HTML5, CSS3, SASS, Ruby, Python, C++
+   Golang, Python, ES6 (react, redux, node), HTML5, CSS3, SASS, SQL, Ruby, PHP,
+   C++, Shell
 
  - **Software**  
    Bash, Git, SVN, Mercurial, VIM, GNU Coreutils, Vagrant, Berkshelf,
-   Chef-Solo, Ansible, Salt, Apache, MySQL, Bower, PHP Composer, Nginx
+   Chef-Solo, Ansible, Salt, Apache, nginx, MySQL, Redis, Bower, npm, PHP
+   Composer, golang glide, jq
 
  - **Environments**  
-   GNU/Linux, BSD/macOS
+   GNU/Linux, BSD/macOS, AWS
 
 ## Experience
 
