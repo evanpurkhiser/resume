@@ -1,4 +1,4 @@
-## Evan Purkhisers Resume
+## Evan Purkhiser's Resume
 
 This section of the repository contains my resume written in
 [markdown](http://daringfireball.net/projects/markdown/).
