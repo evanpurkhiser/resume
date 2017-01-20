@@ -4,7 +4,7 @@ San Francisco, California –  evanpurkhiser@gmail.com – [evanpurkhiser.com](h
 
 ## Education
 
-BS - Computer Science  
+BS - Computer Science 2013  
 **Akron, Ohio - The University of Akron**
 
 ## Qualifications and Skills
