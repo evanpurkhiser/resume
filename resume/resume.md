@@ -23,8 +23,34 @@ BS - Computer Science 2013
 
 ## Experience
 
+### Crunchyroll / Ellation
+*August 2014 - Present*  
+Software Engineer
+
+ - Spearheaded divorce of a deeply integrated client front end and monolith
+   backend into a cleanly separated API consuming client using a modern PHP
+   Symfony stack.
+ - Architected and developed secure authentication mechanisms for a novel dual
+   subscription linking system using the OAuth 1.0 protocol for the account API
+   driving the VRV product.
+ - Designed and developed high performance APIs with golang to serve video
+   content catalog metadata, including image serving. Applied the HATEOAS REST
+   constraint to provide flexibility during rapid API design changes.
+ - Full stack implementation of a 'content partner' portal for content
+   management. Developed using react & redux along with modern web
+   technologies. Special attention of quality was given to the 'look and feel'.
+ - Proliferated quality coding standards, git best practices, review best
+   practices, automated style linting tooling, and improved developer
+   environment tooling through the organization for a high quality developer
+   experience.
+
+Working at Ellation I found myself surrounded by the brightest engineers I have
+ever worked with. I was able to personally grow and sharpen my skills through
+mentorship in both directions. While simultaneously working as a single team to
+ship a world class product. Launching *VRV* was a milestone in my career.
+
 ### Acadaware Ltd
-*March 2011 - Present*  
+*March 2011 - July 2014*  
 Lead Web Applications Developer
 
  - Developed a web application for managing Experiential Education programs
@@ -38,20 +64,3 @@ Lead Web Applications Developer
     - Designed the front end of the website using modern web technologies such as
       HTML5 and CSS3 while also taking user experience best practices into
       consideration to bring a beautiful and intuitive experience to the user.
-
-My ongoing work on the Acadaware project has been the largest and most
-rewarding project I've ever undertaken.
-
-### Quixby LLC
-*Summer 2011*  
-Lead Web Applications Developer
-
- - Developed the minimum viable product for an Akron based startup
- - Worked closely with the company founders including a second developer
- - Designed a complex relational system for matching PC parts by compatability
- - Used the Git VCS to allow easy collaboration between developers as well
-   as the ability to quickly review code changes
-
-Working on the Quixby project over the summer was an exciting opportunity to
-experience the world of startups as well as a chance work in an agile
-environment.
