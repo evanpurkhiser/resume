@@ -37,7 +37,7 @@ Lead Web Applications Developer
     - Used the MVC delivery mechanism to structure the web application
     - Designed the front end of the website using modern web technologies such as
       HTML5 and CSS3 while also taking user experience best practices into
-      consideration to bring a beautiful and intuitive experience to the user
+      consideration to bring a beautiful and intuitive experience to the user.
 
 My ongoing work on the Acadaware project has been the largest and most
 rewarding project I've ever undertaken.
