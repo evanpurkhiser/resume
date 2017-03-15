@@ -1,7 +1,7 @@
-all: resume.pdf
+all: output/resume.pdf
 
-resume.pdf: resume.md template.tex
-	pandoc --template=template.tex resume.md -o resume.pdf
+output/resume.pdf: resume.md template.tex
+	pandoc --template=template.tex resume.md -o output/resume.pdf
 
 clean:
-	rm resume.pdf
+	rm output/resume.pdf
