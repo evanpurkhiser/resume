@@ -1,4 +1,4 @@
-## Evan Purkhiser's Resume
+## Evan Purkhiser's Résumé
 
-My resume written using mardkdown and compiled into various formats using
+My résumé written using mardkdown and compiled into various formats using
 [pandoc](http://pandoc.org/).

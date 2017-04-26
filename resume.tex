@@ -1,0 +1,141 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage[margin=16mm]{geometry}
+\usepackage{nopageno}
+\usepackage[utf8]{inputenc}
+\usepackage[unicode=true]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e}
+
+\linespread{1}
+\setcounter{secnumdepth}{0}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+
+\setlist{leftmargin=3.5mm}
+
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            colorlinks=false,
+            pdfborder={0 0 0}}
+
+\providecommand{\tightlist}
+  {\setlength{\itemsep}{4pt}\setlength{\parskip}{0pt}}
+
+% Skills definition list type
+\newlist{skills}{description}{1}
+\setlist[skills]{leftmargin=8em,style=nextline}
+
+% For the section heading allow runin so we can align text to the right
+\titleformat{\section}[runin]
+  {\normalfont\Large\bfseries}
+  {}{0pt}{}
+
+\titleformat{\subsubsection}[runin]
+  {\normalfont\bfseries}
+  {}{0pt}{}
+
+\begin{document}
+
+\section{Evan Purkhiser}
+
+\hfill San Francisco, California --
+\href{mailto:evanpurkhiser@gmail.com}{evanpurkhiser@gmail.com} --
+\href{http://evanpurkhiser.com}{evanpurkhiser.com}
+
+\subsection{Qualifications}
+
+BS - Computer Science 2013\\
+Akron, Ohio - The University of Akron
+
+\begin{skills}
+\item[Environments]
+  GNU/Linux, BSD/macOS, AWS
+\item[Languages]
+  Golang, Python, ES7 (react, redux, node), HTML5, CSS3, SASS, SQL,
+  Ruby, PHP, C++, Shell
+\item[Software]
+  Bash, Git, SVN, Mercurial, VIM, GNU Coreutils, Vagrant, Berkshelf,
+  Chef-Solo, Ansible, Salt, Apache, nginx, MySQL, Redis, Bower, Browserify,
+  Webpack, npm, PHP Composer, golang glide, jq
+\end{skills}
+
+\subsection{Experience}
+
+\subsubsection{Crunchyroll / Ellation}
+\hfill Senior Software Engineer --- \emph{August 2014 - Present}
+
+\begin{itemize}
+\tightlist
+\item
+  Spearheaded divorce of a deeply integrated client front end and
+  monolith backend into a cleanly separated API consuming client using a
+  modern PHP Symfony stack.
+\item
+  Architected and developed secure authentication mechanisms for a novel
+  dual subscription linking system using the OAuth 1.0 protocol for the
+  account API driving the VRV product.
+\item
+  Designed and developed high performance APIs with golang to serve
+  video content catalog metadata, including image serving. Applied the
+  HATEOAS REST constraint to provide flexibility during rapid API design
+  changes.
+\item
+  Full stack implementation of a `content partner' portal for content
+  management. Developed using react with redux along with modern web
+  technologies. Special attention of quality was given to the `look and
+  feel'.
+\item
+  Proliferated quality coding standards, git best practices, review best
+  practices, automated style linting tooling, and improved developer
+  environment tooling through the organization for a high quality
+  developer experience.
+\end{itemize}
+
+Working at Ellation I found myself surrounded by the brightest engineers
+I have ever worked with. I was able to personally grow and sharpen my
+skills through mentorship in both directions. While simultaneously
+working as a single team to ship a world class product. Launching
+\emph{VRV} was a milestone in my career.
+
+\subsubsection{Acadaware Ltd}
+\hfill Lead Web Applications Developer --- \emph{March 2011 - July 2014}
+
+\begin{itemize}
+\tightlist
+\item
+  Developed a web application for managing Experiential Education
+  programs
+\item
+  Responsibilities included all stages of development, from initial
+  requirement gathering to deployment and configuration of a production
+  server environment
+\item
+  Worked as the sole Full-Stack developer to build both the front and
+  back ends of the application. Tasks included:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Architecting the business logic using advanced object oriented
+    concepts
+  \item
+    Taking into consideration complex relational database designs
+  \item
+    Used the MVC delivery mechanism to structure the web application
+  \item
+    Designed the front end of the website using modern web technologies
+    such as HTML5 and CSS3 while also taking user experience best
+    practices into consideration to bring a beautiful and intuitive
+    experience to the user.
+  \end{itemize}
+\end{itemize}
+
+\end{document}

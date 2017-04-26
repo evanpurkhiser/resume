@@ -1,11 +1,11 @@
-\documentclass[letterpaper,10pt]{$documentclass$}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
-\usepackage[margin=2cm]{geometry}
+\usepackage[margin=16mm]{geometry}
 \usepackage{nopageno}
 \usepackage[utf8]{inputenc}
 \usepackage[unicode=true]{hyperref}
+\usepackage{enumitem}
 
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e}
@@ -25,6 +25,6 @@
             colorlinks=false,
             pdfborder={0 0 0}}
 
-\begin{document}
-$body$
-\end{document}
+% Skills definition list type
+\newlist{skills}{description}{1}
+\setlist[skills]{leftmargin=8em,style=nextline}
