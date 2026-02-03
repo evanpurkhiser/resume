@@ -1,6 +1,18 @@
 @import 'tailwindcss';
 
 @layer components {
+  a {
+    position: relative;
+    margin: calc(var(--spacing) * -1) calc(var(--spacing) * -1.5);
+    padding: calc(var(--spacing) * 1) calc(var(--spacing) * 1.5);
+    border-radius: calc(var(--spacing) * 1);
+    transition: background-color 200ms ease-in-out;
+  }
+
+  a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
   .experience-bullet {
     position: relative;
     padding-left: calc(var(--spacing) * 4);

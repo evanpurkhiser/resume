@@ -61,9 +61,9 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
           {
             resume.personal.phoneLastFour && (
             <span class="text-gray-900 text-sm flex gap-0.5 items-center">
-              <span class="text-sm text-gray-600 bg-gray-100 px-1.5 rounded-full inline-flex items-center h-[1lh]">∗∗∗</span>
+              <span class="text-sm text-gray-600">∗∗∗</span>
               <span>-</span>
-              <span class="text-sm text-gray-600 bg-gray-100 px-1.5 rounded-full inline-flex items-center h-[1lh]">∗∗∗</span>
+              <span class="text-sm text-gray-600">∗∗∗</span>
               <span>-</span>
               <span class="tabular-nums">{resume.personal.phoneLastFour}</span></span>
             )
@@ -137,7 +137,7 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
       <a href="https://github.com/evanpurkhiser/resume" class="hover:underline">
         Resume Source
       </a>
-      <span>evanpurkhiser.com – {formattedDate}</span>
+      <span>resume.evanpurkhiser.com – {formattedDate}</span>
     </footer>
   </body>
 </html>

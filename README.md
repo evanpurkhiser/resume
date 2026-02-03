@@ -1,6 +1,6 @@
 ## Evan Purkhiser's Résumé
 
-[![Build and Release Resume](https://github.com/evanpurkhiser/resume/actions/workflows/release.yml/badge.svg)](https://github.com/evanpurkhiser/resume/actions/workflows/release.yml)
+[![Build and Publish Resume](https://github.com/evanpurkhiser/resume/actions/workflows/publish.yml/badge.svg)](https://github.com/evanpurkhiser/resume/actions/workflows/publish.yml)
 
 My résumé built from [resume.yaml](content/resume.yaml) using Astro and compiled into a PDF.
 

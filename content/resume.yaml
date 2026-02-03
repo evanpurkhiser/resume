@@ -14,27 +14,27 @@ skills:
   - category: Languages / Libraries
     items:
       - TypeScript / React
+      - Python / Django
       - NodeJS
-      - Golang
-      - Rust
-      - Python 3.x / Django
       - Postgres / SQLite
+      - Golang
       - PHP
+      - Rust
       - Framer Motion
 
   - category: Tools / Software
     items:
       - MacOS / Linux
-      - Neovim
-      - Docker
       - git
-      - Nginx
-      - Ansible
       - Redis
-      - GraphQL
-      - Bash
+      - Agentic Coding
+      - Neovim
+      - Nginx
       - GitHub Actions
       - Datadog
+      - Docker
+      - Ansible
+      - Bash
       - Figma
 
 education:
