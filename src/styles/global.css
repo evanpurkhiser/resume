@@ -34,3 +34,11 @@
     flex-shrink: 0;
   }
 }
+
+/* Print styles for PDF generation */
+@media print {
+  @page {
+    margin: 0;
+    size: letter;
+  }
+}

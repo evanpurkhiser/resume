@@ -8,7 +8,7 @@ import AreaHeading from '../components/AreaHeading.astro';
 import ExperienceItem from '../components/ExperienceItem.astro';
 import LinkedInIcon from '../components/LinkedInIcon.astro';
 
-const resumePath = join(process.cwd(), '../resume.yaml');
+const resumePath = join(process.cwd(), 'content', 'resume.yaml');
 const resumeYaml = readFileSync(resumePath, 'utf8');
 const resume = load(resumeYaml) as Resume;
 ---
@@ -22,7 +22,9 @@ const resume = load(resumeYaml) as Resume;
     <meta name="generator" content={Astro.generator} />
     <title>{resume.personal.name} - Resume</title>
   </head>
-  <body class="max-w-4xl mx-auto p-8 font-['Helvetica_Neue',Helvetica,Arial,sans-serif] text-gray-900">
+  <body
+    class="max-w-[8.5in] mx-auto p-8 font-['Helvetica_Neue',Helvetica,Arial,sans-serif] text-gray-900"
+  >
     <main class="flex flex-col gap-6">
       <header class="flex justify-between items-center">
         <div>
@@ -42,9 +44,8 @@ const resume = load(resumeYaml) as Resume;
               >
             </li>
             <li class="flex items-center gap-2">
-              <a
-                href={`mailto:${resume.personal.email}`}
-                class="text-gray-900 underline">{resume.personal.email}</a
+              <a href={`mailto:${resume.personal.email}`} class="text-gray-900 underline"
+                >{resume.personal.email}</a
               >
             </li>
           </ul>
@@ -56,7 +57,9 @@ const resume = load(resumeYaml) as Resume;
         </div>
       </header>
 
-      <section class="flex flex-row gap-4 justify-between relative before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-screen before:h-px before:bg-gray-100 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-screen after:h-px after:bg-gray-100">
+      <section
+        class="flex flex-row gap-4 justify-between relative before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-screen before:h-px before:bg-gray-100 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-screen after:h-px after:bg-gray-100"
+      >
         {
           resume.skills.map((skillGroup, index) => (
             <>
@@ -115,7 +118,10 @@ const resume = load(resumeYaml) as Resume;
                 <h3 class="text-lg font-bold">{project.name}</h3>
                 <div class="flex items-baseline gap-6">
                   {project.website && (
-                    <a href={project.website} class="text-sm text-gray-600 hover:underline">
+                    <a
+                      href={project.website}
+                      class="text-sm text-gray-600 hover:underline"
+                    >
                       {project.website}
                     </a>
                   )}
