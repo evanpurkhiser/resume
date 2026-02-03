@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "build:pdf": "npm run build && node scripts/generate-pdf.js",
+    "watch:pdf": "node scripts/watch-pdf.js",
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write ."
