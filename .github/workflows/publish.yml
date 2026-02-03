@@ -27,7 +27,15 @@ jobs:
       - name: Install fonts
         run: |
           sudo apt-get update
-          sudo apt-get install -y fonts-urw-base35 gsfonts
+          sudo apt-get install -y unzip
+
+          # Download and install Helvetica
+          wget https://font.download/dl/font/helvetica-neue-5.zip -O helvetica.zip
+          unzip -o helvetica.zip -d helvetica-fonts
+          sudo mkdir -p /usr/share/fonts/truetype/helvetica
+          sudo cp helvetica-fonts/*.ttf /usr/share/fonts/truetype/helvetica/ 2>/dev/null || true
+          sudo cp helvetica-fonts/*.otf /usr/share/fonts/truetype/helvetica/ 2>/dev/null || true
+          sudo fc-cache -f -v
 
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
