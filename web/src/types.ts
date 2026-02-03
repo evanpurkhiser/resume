@@ -27,6 +27,7 @@ export interface Experience {
   company: string;
   title: string;
   dates: DateRange;
+  description?: string;
   sections: ExperienceSection[];
 }
 

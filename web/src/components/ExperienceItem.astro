@@ -19,6 +19,10 @@ const dateRange = formatDateRange(experience.dates.start, experience.dates.end);
     <p class="text-sm text-gray-500">{dateRange}</p>
   </header>
 
+  {experience.description && (
+    <p class="text-sm">{experience.description}</p>
+  )}
+
   {experience.sections.map(section => (
     <section class="flex flex-col gap-1">
       {section.heading && (

@@ -3,9 +3,38 @@
   "title": "Resume",
   "description": "Schema for resume.yaml",
   "type": "object",
-  "required": ["personal", "skills", "experience"],
+  "required": ["personal", "skills", "education", "experience", "projects"],
   "properties": {
     "personal": {
+      "$ref": "#/definitions/Personal"
+    },
+    "skills": {
+      "type": "array",
+      "description": "List of skill categories",
+      "items": {
+        "$ref": "#/definitions/SkillCategory"
+      }
+    },
+    "education": {
+      "$ref": "#/definitions/Education"
+    },
+    "experience": {
+      "type": "array",
+      "description": "Work experience history",
+      "items": {
+        "$ref": "#/definitions/Experience"
+      }
+    },
+    "projects": {
+      "type": "array",
+      "description": "Personal or side projects",
+      "items": {
+        "$ref": "#/definitions/Project"
+      }
+    }
+  },
+  "definitions": {
+    "Personal": {
       "type": "object",
       "required": ["name", "title", "email"],
       "properties": {
@@ -43,121 +72,139 @@
         }
       }
     },
-    "skills": {
-      "type": "array",
-      "description": "List of skill categories",
-      "items": {
-        "type": "object",
-        "required": ["category", "items"],
-        "properties": {
-          "category": {
-            "type": "string",
-            "description": "Skill category name"
-          },
+    "SkillCategory": {
+      "type": "object",
+      "required": ["category", "items"],
+      "properties": {
+        "category": {
+          "type": "string",
+          "description": "Skill category name"
+        },
+        "items": {
+          "type": "array",
+          "description": "List of skills in this category",
           "items": {
-            "type": "array",
-            "description": "List of skills in this category",
-            "items": {
-              "type": "string"
-            }
+            "type": "string"
           }
         }
       }
     },
-    "experience": {
-      "type": "array",
-      "description": "Work experience history",
-      "items": {
-        "type": "object",
-        "required": ["company", "title", "dates", "sections"],
-        "properties": {
-          "company": {
-            "type": "string",
-            "description": "Company name"
-          },
-          "title": {
-            "type": "string",
-            "description": "Job title"
-          },
-          "dates": {
-            "type": "object",
-            "required": ["start"],
-            "properties": {
-              "start": {
-                "type": "string",
-                "format": "date",
-                "description": "Start date in YYYY-MM-DD format (e.g., '2017-08-01')"
-              },
-              "end": {
-                "type": "string",
-                "format": "date",
-                "description": "End date in YYYY-MM-DD format (e.g., '2020-08-01'). Omit this field if position is current."
-              }
-            }
-          },
-          "sections": {
-            "type": "array",
-            "description": "Sections of work organized by theme or area",
-            "items": {
-              "type": "object",
-              "required": ["bullets"],
-              "properties": {
-                "heading": {
-                  "type": "string",
-                  "description": "Optional section heading (e.g., 'Product Development', 'Frontend Infrastructure')"
-                },
-                "bullets": {
-                  "type": "array",
-                  "description": "List of accomplishments or responsibilities",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
+    "DateRange": {
+      "type": "object",
+      "required": ["start"],
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date",
+          "description": "Start date in YYYY-MM-DD format (e.g., '2017-08-01')"
+        },
+        "end": {
+          "type": "string",
+          "format": "date",
+          "description": "End date in YYYY-MM-DD format (e.g., '2020-08-01'). Omit this field if position is current."
+        }
+      }
+    },
+    "Education": {
+      "type": "object",
+      "required": ["degree", "institution", "dates"],
+      "properties": {
+        "degree": {
+          "type": "string",
+          "description": "Degree earned"
+        },
+        "institution": {
+          "type": "string",
+          "description": "Educational institution"
+        },
+        "dates": {
+          "$ref": "#/definitions/DateRange"
+        }
+      }
+    },
+    "ExperienceSection": {
+      "type": "object",
+      "required": ["bullets"],
+      "properties": {
+        "heading": {
+          "type": "string",
+          "description": "Optional section heading (e.g., 'Product Development', 'Frontend Infrastructure')"
+        },
+        "bullets": {
+          "type": "array",
+          "description": "List of accomplishments or responsibilities",
+          "items": {
+            "type": "string"
           }
         }
       }
     },
-    "projects": {
-      "type": "array",
-      "description": "Personal or side projects",
-      "items": {
-        "type": "object",
-        "required": ["name", "description"],
-        "properties": {
-          "name": {
-            "type": "string",
-            "description": "Project name"
-          },
-          "website": {
-            "type": "string",
-            "format": "uri",
-            "description": "Project website URL"
-          },
-          "links": {
-            "type": "array",
-            "description": "Related links or repositories",
-            "items": {
-              "type": "object",
-              "required": ["name", "url"],
-              "properties": {
-                "name": {
-                  "type": "string",
-                  "description": "Link name or label"
-                },
-                "url": {
-                  "type": "string",
-                  "format": "uri",
-                  "description": "Link URL"
-                }
-              }
-            }
-          },
-          "description": {
-            "type": "string",
-            "description": "Project description"
+    "Experience": {
+      "type": "object",
+      "required": ["company", "title", "dates", "sections"],
+      "properties": {
+        "company": {
+          "type": "string",
+          "description": "Company name"
+        },
+        "title": {
+          "type": "string",
+          "description": "Job title"
+        },
+        "dates": {
+          "$ref": "#/definitions/DateRange"
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional description of the role or company"
+        },
+        "sections": {
+          "type": "array",
+          "description": "Sections of work organized by theme or area",
+          "items": {
+            "$ref": "#/definitions/ExperienceSection"
           }
+        }
+      }
+    },
+    "ProjectLink": {
+      "type": "object",
+      "required": ["name", "url"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Link name or label"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Link URL"
+        }
+      }
+    },
+    "Project": {
+      "type": "object",
+      "required": ["name", "description"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Project name"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri",
+          "description": "Project website URL"
+        },
+        "links": {
+          "type": "array",
+          "description": "Related links or repositories",
+          "items": {
+            "$ref": "#/definitions/ProjectLink"
+          }
+        },
+        "description": {
+          "type": "string",
+          "description": "Project description"
         }
       }
     }
