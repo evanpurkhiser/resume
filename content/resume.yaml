@@ -8,7 +8,7 @@ personal:
   email: evanpurkhiser@gmail.com
   website: https://evanpurkhiser.com
   linkedin: https://linkedin.com/in/evanpurkhiser
-  phoneLastFour: '0474'
+  phoneLastFour: "0474"
 
 skills:
   - category: Languages / Libraries
@@ -45,7 +45,7 @@ education:
     end: 2013-05-01
 
 experience:
-  - company: Sentry.io
+  - company: Sentry
     title: Senior Software Engineer
     dates:
       start: 2017-08-01
@@ -229,26 +229,12 @@ experience:
     dates:
       start: 2011-03-01
       end: 2014-07-01
-    sections:
-      - bullets:
-          - >-
-            Developed a web application for managing Experiential Education
-            programs. Responsibilities included all stages of development, from
-            initial requirement gathering to deployment and configuration of a
-            production server environment.
-          - >-
-            Worked as the sole Full-Stack developer to build and deploy both the
-            front and back ends of the application.
-          - >-
-            Used the MVC delivery mechanism to structure the web application.
-          - >-
-            Designed and implemented a relational database structure suited to the
-            application.
-          - >-
-            Designed the frontend of the application using modern web technologies
-            such as HTML5 and CSS3 while also taking user experience best practices
-            into consideration to bring a beautiful and intuitive experience to the
-            user.
+    description: >-
+      Developed a web application for managing Experiential Education programs.
+      Responsibilities included all stages of development, from initial
+      requirement gathering to deployment and configuration of a production
+      server environment via Chef.
+    sections: []
 
 projects:
   - name: Prolink Tools
