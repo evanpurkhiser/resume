@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-release:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     permissions:
       contents: write
 
@@ -24,28 +24,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install fonts
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y unzip
-
-          # Download and install Helvetica
-          wget https://font.download/dl/font/helvetica-neue-5.zip -O helvetica.zip
-          unzip -o helvetica.zip -d helvetica-fonts
-          sudo mkdir -p /usr/share/fonts/truetype/helvetica
-          sudo cp helvetica-fonts/*.ttf /usr/share/fonts/truetype/helvetica/ 2>/dev/null || true
-          sudo cp helvetica-fonts/*.otf /usr/share/fonts/truetype/helvetica/ 2>/dev/null || true
-          sudo fc-cache -f -v
-
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
-
-      - name: Debug font installation
-        run: |
-          echo "=== Installed Helvetica fonts ==="
-          ls -la /usr/share/fonts/truetype/helvetica/
-          echo "=== Font family names available ==="
-          fc-list | grep -i helvetica || echo "No Helvetica fonts found by fc-list"
 
       - name: Build project and generate PDF
         run: npm run build:pdf
