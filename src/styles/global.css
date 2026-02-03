@@ -41,4 +41,17 @@
     margin: 0;
     size: letter;
   }
+
+  body {
+    border-left: none;
+    border-right: none;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+  }
 }

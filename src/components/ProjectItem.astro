@@ -1,0 +1,27 @@
+---
+import type {Project} from '../types';
+import ItemCard from './ItemCard.astro';
+
+interface Props {
+  project: Project;
+}
+
+const {project} = Astro.props;
+---
+
+<ItemCard title={project.name}>
+  <div slot="trailing" class="flex items-baseline gap-6">
+    {project.website && (
+      <a href={project.website} class="text-sm text-gray-600 hover:underline">
+        {project.website}
+      </a>
+    )}
+    {project.links && (
+        project.links.map(link => (
+          <a href={link.url} class="text-sm text-gray-600 hover:underline github-link">
+            {link.name}
+          </a>
+        )))}
+  </div>
+  <p class="text-xs">{project.description}</p>
+</ItemCard>
