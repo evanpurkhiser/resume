@@ -1,6 +1,7 @@
 ---
 import type {Experience} from '../types';
 import {formatDateRange} from '../utils/dates';
+import ItemCard from './ItemCard.astro';
 
 interface Props {
   experience: Experience;
@@ -10,16 +11,9 @@ const {experience} = Astro.props;
 const dateRange = formatDateRange(experience.dates.start, experience.dates.end);
 ---
 
-<article class="flex flex-col gap-2">
-  <header class="flex justify-between items-baseline">
-    <div class="flex items-baseline gap-2">
-      <h3 class="text-xl font-bold">{experience.company}</h3>
-      <p class="text-md">{experience.title}</p>
-    </div>
-    <p class="text-sm text-gray-500">{dateRange}</p>
-  </header>
-
-  {experience.description && <p class="text-sm">{experience.description}</p>}
+<ItemCard title={experience.company} subtitle={experience.title}>
+  <div slot="trailing" class="text-sm text-gray-500">{dateRange}</div>
+  {experience.description && <p class="text-xs">{experience.description}</p>}
 
   {
     experience.sections.map(section => (
@@ -27,10 +21,10 @@ const dateRange = formatDateRange(experience.dates.start, experience.dates.end);
         {section.heading && <h4 class="text-sm text-gray-500">{section.heading}</h4>}
         <ul class="flex flex-col gap-2">
           {section.bullets.map(bullet => (
-            <li class="text-sm experience-bullet">{bullet}</li>
+            <li class="text-xs experience-bullet">{bullet}</li>
           ))}
         </ul>
       </section>
     ))
   }
-</article>
+</ItemCard>
