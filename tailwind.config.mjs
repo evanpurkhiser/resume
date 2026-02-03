@@ -9,7 +9,7 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        sans: ['Helvetica Neue', 'Nimbus Sans', 'Helvetica', 'Arial', 'sans-serif'],
       },
     },
   },
