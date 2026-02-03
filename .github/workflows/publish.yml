@@ -40,6 +40,13 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
+      - name: Debug font installation
+        run: |
+          echo "=== Installed Helvetica fonts ==="
+          ls -la /usr/share/fonts/truetype/helvetica/
+          echo "=== Font family names available ==="
+          fc-list | grep -i helvetica || echo "No Helvetica fonts found by fc-list"
+
       - name: Build project and generate PDF
         run: npm run build:pdf
 
