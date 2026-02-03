@@ -1,0 +1,277 @@
+# yaml-language-server: $schema=./resume.schema.json
+$gaaschema: ./resume.schema.json
+
+personal:
+  name: Evan Purkhiser
+  title: Staff Software Engineer
+  location: New York City
+  email: evanpurkhiser@gmail.com
+  website: https://evanpurkhiser.com
+  linkedin: https://linkedin.com/in/evanpurkhiser
+  phoneLastFour: "0474"
+
+skills:
+  - category: Languages / Libraries
+    items:
+      - TypeScript / React
+      - NodeJS
+      - Golang
+      - Rust
+      - Python 3.x / Django
+      - Postgres / SQLite
+      - PHP
+      - Framer Motion
+
+  - category: Tools / Software
+    items:
+      - MacOS / Linux
+      - Neovim
+      - Docker
+      - git
+      - Nginx
+      - Ansible
+      - Redis
+      - GraphQL
+      - Bash
+      - GitHub Actions
+      - Datadog
+      - Figma
+
+education:
+  degree: B.S. Computer Science
+  institution: The University of Akron
+  dates:
+    start: 2009-09-01
+    end: 2013-05-01
+
+experience:
+  - company: Sentry.io
+    title: Senior Software Engineer
+    dates:
+      start: 2017-08-01
+    sections:
+      - heading: Product Development
+        bullets:
+          - >-
+            Architected and launched Uptime Monitoring product end-to-end from
+            conception to production, designing HTTP request validation with custom
+            headers/body/assertions, real-time status tracking with incident
+            detection and flapping prevention, automated domain ownership
+            verification via RDAP/WHOIS, and comprehensive uptime percentage
+            calculations with timezone-aware downtime tracking.
+          - >-
+            Led multi-year evolution of Cron Monitoring system processing 15MM+
+            check-ins daily, architecting Kafka-based clock-tick consumers for
+            distributed processing, implementing volume anomaly-based incident
+            detection with tick-based decision making, and building check-in
+            timeline visualizations with timezone awareness and quantization.
+          - >-
+            Engineered environment-based monitor muting with 4-stage dual-write
+            database migration strategy ensuring zero-downtime deployment,
+            including bidirectional writes, backfills, constraint updates, and
+            deprecated column removal across production database.
+          - >-
+            Designed detector-based workflow engine as unified abstraction layer
+            for monitors and alerts, building detector validator framework,
+            lifecycle hooks, query APIs with filtering/pagination, and automatic
+            migration path from legacy monitors to new detector system.
+      - heading: Integrations Platform
+        bullets:
+          - >-
+            Architected organization-level integrations platform enabling rapid
+            development of third-party integrations, building core infrastructure
+            for OAuth flows, provider serialization, feature detection, and
+            permissions management.
+          - >-
+            Built Slack integration from ground up with workspace token
+            architecture, message unfurling for issue/incident links, interactive
+            actions (assign/resolve/ignore/archive), DM support, and user identity
+            linking, growing to 20k+ organizations.
+          - >-
+            Implemented GitHub Enterprise and GitHub Apps integrations with commit
+            linking, code mapping for stack trace source linking, repository
+            management, automatic token refresh, and issue creation workflows.
+          - >-
+            Developed JIRA/JIRA Server and Bitbucket integrations with issue
+            creation/linking, external form error mapping, field validation, and
+            consistent installation flows across integration types.
+      - heading: Frontend Infrastructure & Migrations
+        bullets:
+          - >-
+            Led company-wide React Router 3→6 migration across 750+ files and 100+
+            route definitions, developing backward-compatible SentryRouteObject
+            abstractions, compatibility shims, and feature flag rollout strategy
+            enabling zero-downtime production deployment.
+          - >-
+            Spearheaded testing modernization initiative migrating 200+ test files
+            from Enzyme to React Testing Library, establishing new testing patterns
+            focused on user behavior over implementation details and improving test
+            reliability across engineering organization.
+          - >-
+            Drove TypeScript adoption converting 300+ JavaScript files to
+            TypeScript across critical modules (forms, UI components, settings,
+            authentication), establishing type safety best practices and migration
+            patterns organization-wide.
+          - >-
+            Refactored legacy codebase converting 100+ class components to
+            functional components with hooks, removing deprecated form systems and
+            unsafe React lifecycle methods, standardizing component patterns across
+            application.
+          - >-
+            Modernized build infrastructure upgrading Node.js 16→18 LTS, webpack 5,
+            Babel 8, TypeScript 4.x, implementing code splitting and lazy loading
+            for improved initial page load performance.
+          - >-
+            Led Python 2→3 migration fixing 100+ compatibility issues across
+            integrations, plugins, and tests, correcting byte/string encoding,
+            pickle serialization, and HTTP client usage for cross-version
+            compatibility.
+      - heading: Search & Discovery
+        bullets:
+          - >-
+            Implemented parsing expression grammar via peg.js producing fully-typed
+            AST for incremental parsing of Sentry's custom event search syntax,
+            with careful attention to DX enabling grammar reusability and
+            maintainability.
+          - >-
+            Architected global command palette (cmd+k) for navigation and actions,
+            building multi-source fuzzy search across routes, commands, API docs,
+            help articles, and organizations with result ranking and caching.
+          - >-
+            Migrated saved searches from project-level to organization-level with
+            visibility controls via 4-stage database migration (add columns,
+            backfill, migrate constraints, remove deprecated columns), widening
+            permissions for member access.
+      - heading: Auth & Security
+        bullets:
+          - >-
+            Rebuilt entire WebAuthn/Passkey authentication system replacing legacy
+            U2F, implementing passkey enrollment and biometric authentication flows,
+            focus-aware triggers, and upgrading backend to cbor2 protocol support.
+          - >-
+            Built comprehensive 2FA enforcement system with requirement checks
+            before organization invites, authenticator management UI, sudo modal
+            with WebAuthn support, and recovery code generation.
+          - >-
+            Implemented SAML2 integration with metadata endpoints, form handling,
+            CSRF exemptions, and error display for SSO provider integration.
+      - heading: Database & Performance
+        bullets:
+          - >-
+            Optimized database performance eliminating N+1 queries in monitor
+            serializers through select_related optimizations and refactoring
+            computed properties to reduce database load.
+          - >-
+            Implemented Redis-based volume history tracking for incident detection
+            with clock-tick decision recording, 15-minute windows, pipeline-based
+            operations, and TTL-based state management.
+          - >-
+            Executed multi-stage schema migrations for critical tables ensuring
+            zero-downtime deployments through bidirectional dual-write patterns,
+            backfills, and careful constraint management.
+      - heading: Developer Experience & Tooling
+        bullets:
+          - >-
+            Implemented node-canvas backend chart rendering service for email and
+            Slack notifications, enabling shared rendering implementations between
+            backend services and frontend chart components.
+          - >-
+            Improved CI infrastructure with multi-stage GitHub Actions implementing
+            docker test image caching between unchanged dependencies, reducing
+            build times by 40%.
+          - >-
+            Built comprehensive form system with 50+ field components including
+            validation, error handling, state management, disabled state
+            propagation, and pretty value formatting.
+          - >-
+            Enhanced accessibility standards adding comprehensive ARIA labels,
+            semantic HTML elements (nav/header/main), improved keyboard navigation,
+            and proper modal/dialog markup across settings and navigation.
+      - heading: Organizational Impact
+        bullets:
+          - >-
+            Led Frontend Technical Steering Committee accomplishing complete
+            migration to TypeScript, organization-wide code quality initiatives,
+            React Router modernization, and testing infrastructure improvements
+            across 7+ product teams.
+          - >-
+            Mentored engineers across teams on SDLC best practices, modern React
+            patterns, TypeScript adoption, testing strategies, and frontend
+            architecture decisions.
+          - >-
+            Established engineering standards and best practices through 7,400+
+            commits over 8 years, with peak productivity of 900+ commits annually,
+            demonstrating sustained technical leadership and execution.
+
+  - company: Crunchyroll / VRV
+    title: Senior Software Engineer
+    dates:
+      start: 2014-08-01
+      end: 2017-08-01
+    sections:
+      - bullets:
+          - >-
+            Designed and developed high-performance APIs using golang to serve
+            video content metadata.
+          - >-
+            Full-stack implementation of a "content partner" portal for video
+            content management. Developed using React + Redux. Collaborated with
+            designers to produce a polished, branded UI with an emphasis on
+            usability.
+          - >-
+            Promoted quality coding standards, git best practices, review best
+            practices, automated style lint tooling, and improved developer
+            environment tooling throughout the organization for a high quality
+            developer experience.
+
+  - company: Acadaware
+    title: Lead Web Applications Developer
+    dates:
+      start: 2011-03-01
+      end: 2014-07-01
+    sections:
+      - bullets:
+          - >-
+            Developed a web application for managing Experiential Education
+            programs. Responsibilities included all stages of development, from
+            initial requirement gathering to deployment and configuration of a
+            production server environment.
+          - >-
+            Worked as the sole Full-Stack developer to build and deploy both the
+            front and back ends of the application.
+          - >-
+            Used the MVC delivery mechanism to structure the web application.
+          - >-
+            Designed and implemented a relational database structure suited to the
+            application.
+          - >-
+            Designed the frontend of the application using modern web technologies
+            such as HTML5 and CSS3 while also taking user experience best practices
+            into consideration to bring a beautiful and intuitive experience to the
+            user.
+
+projects:
+  - name: Prolink Tools
+    website: https://prolink.tools
+    links:
+      - name: prolink-tools
+        url: https://github.com/evanpurkhiser/prolink-tools
+      - name: prolink-connect
+        url: https://github.com/evanpurkhiser/prolink-connect
+      - name: rekordbox-parser
+        url: https://github.com/evanpurkhiser/rekordbox-parser
+    description: >-
+      Proprietary low-level UDP/TCP protocol reversal and implementation as a
+      TypeScript Library. Electron app implemented with mobx IPC and React
+      websocket based OBS overlay. Allows DJs to live-stream real-time track
+      titles with configurable animated transitions.
+
+  - name: Dots – Dotfile Manager
+    links:
+      - name: dots
+        url: https://github.com/evanpurkhiser/dots
+      - name: dots-personal
+        url: https://github.com/evanpurkhiser/dots-personal
+    description: >-
+      Novel "cascading" dot configuration management solution for sharing
+      personal dot configuration files across systems and platforms.

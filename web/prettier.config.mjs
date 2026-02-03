@@ -1,0 +1,13 @@
+const config = {
+  bracketSpacing: false,
+  printWidth: 90,
+  semi: true,
+  singleQuote: true,
+  tabWidth: 2,
+  trailingComma: 'es5',
+  useTabs: false,
+  arrowParens: 'avoid',
+  plugins: ['prettier-plugin-astro'],
+};
+
+export default config;
