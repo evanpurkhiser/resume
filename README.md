@@ -12,6 +12,6 @@ On every push to `main`, the build pipeline:
 
 1. Builds the Astro site to static HTML
 2. Uses Playwright with Chromium to generate a PDF from the HTML
-3. Creates a GitHub release (`latest`) with both the PDF and HTML artifacts
-
-The generated resume is automatically available at the [latest release](https://github.com/evanpurkhiser/resume/releases/tag/latest).
+3. Generates a Markdown version of the resume
+4. Deploys the site (including PDF and Markdown) to Cloudflare Pages
+5. Creates a GitHub release (`latest`) with the PDF and Markdown artifacts
