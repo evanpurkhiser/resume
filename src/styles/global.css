@@ -2,6 +2,8 @@
 
 @theme {
   --font-sans: 'Helvetica Neue', 'Nimbus Sans', 'Helvetica', 'Arial', sans-serif;
+  --resume-max-width: 8.5in;
+  --breakpoint-lg: 8.5in;
 }
 
 @layer components {
@@ -48,6 +50,11 @@
     background-repeat: no-repeat;
     background-size: contain;
     flex-shrink: 0;
+  }
+
+  .icon-link {
+    margin: calc(var(--spacing) * -1);
+    padding: calc(var(--spacing) * 1);
   }
 }
 

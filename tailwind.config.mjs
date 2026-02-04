@@ -8,9 +8,6 @@ export default {
           900: '#101214',
         },
       },
-      fontFamily: {
-        sans: ['Helvetica Neue', 'Nimbus Sans', 'Helvetica', 'Arial', 'sans-serif'],
-      },
     },
   },
   plugins: [],

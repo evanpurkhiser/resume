@@ -1,6 +1,6 @@
 ---
 import type {Experience} from '../types';
-import {formatDateRange} from '../utils/dates';
+import {formatDateRange, formatDateRangeShort} from '../utils/dates';
 import ItemCard from './ItemCard.astro';
 
 interface Props {
@@ -9,10 +9,14 @@ interface Props {
 
 const {experience} = Astro.props;
 const dateRange = formatDateRange(experience.dates.start, experience.dates.end);
+const dateRangeShort = formatDateRangeShort(experience.dates.start, experience.dates.end);
 ---
 
 <ItemCard title={experience.company} subtitle={experience.title}>
-  <div slot="trailing" class="text-sm text-gray-500">{dateRange}</div>
+  <div slot="trailing" class="text-xs sm:text-sm text-gray-500">
+    <span class="sm:hidden" aria-label={dateRange}>{dateRangeShort}</span>
+    <span class="hidden sm:inline" aria-hidden="true">{dateRange}</span>
+  </div>
   {experience.description && <p class="text-xs">{experience.description}</p>}
 
   {

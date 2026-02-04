@@ -8,10 +8,10 @@ const {title, subtitle} = Astro.props;
 ---
 
 <article class="flex flex-col gap-1">
-  <header class="flex justify-between items-baseline">
-    <div class="flex items-baseline gap-2">
-      <h3 class="text-lg font-bold">{title}</h3>
-      {subtitle && <p class="text-md">{subtitle}</p>}
+  <header class="flex flex-wrap justify-between items-baseline">
+    <div class="flex flex-wrap items-baseline gap-2 shrink">
+      <h3 class="text-base sm:text-lg font-bold whitespace-nowrap">{title}</h3>
+      {subtitle && <p class="text-sm sm:text-md whitespace-nowrap">{subtitle}</p>}
     </div>
     <slot name="trailing" />
   </header>
