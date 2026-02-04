@@ -13,7 +13,7 @@ const {project} = Astro.props;
   <div slot="trailing" class="flex items-baseline gap-4 sm:gap-6">
     {
       project.website && (
-        <a href={project.website} class="text-xs sm:text-sm text-gray-600 hover:underline">
+        <a href={project.website} class="text-xs sm:text-sm text-gray-600 hover:underline whitespace-nowrap">
           {project.website}
         </a>
       )
@@ -21,11 +21,11 @@ const {project} = Astro.props;
     {
       project.links &&
         project.links.map(link => (
-          <a href={link.url} class="text-xs sm:text-sm text-gray-600 hover:underline github-link">
+          <a href={link.url} class="text-xs sm:text-sm text-gray-600 hover:underline github-link whitespace-nowrap">
             {link.name}
           </a>
         ))
     }
   </div>
-  <p class="text-xs">{project.description}</p>
+  <p class="prose-text">{project.description}</p>
 </ItemCard>
