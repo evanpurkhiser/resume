@@ -98,7 +98,7 @@ function generateMarkdown(resume: Resume): string {
       }
     }
     if (links.length > 0) {
-      sections.push(links.join(' | '));
+      sections.push(links.join(', '));
     }
 
     sections.push('');
