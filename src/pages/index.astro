@@ -41,7 +41,11 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
         <div class="flex flex-col items-end gap-1 text-sm">
           <ul class="flex items-center gap-2">
             <li class="flex items-center gap-2 after:content-['—'] after:text-gray-600">
-              <a href={resume.personal.linkedin} class="block">
+              <a
+                href={resume.personal.linkedin}
+                class="block"
+                aria-label="View LinkedIn profile"
+              >
                 <LinkedInIcon />
               </a>
             </li>
@@ -58,12 +62,13 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
           </ul>
           {
             resume.personal.phoneLastFour && (
-            <span class="text-gray-900 text-sm flex gap-0.5 items-center">
-              <span class="text-sm text-gray-600">∗∗∗</span>
-              <span>-</span>
-              <span class="text-sm text-gray-600">∗∗∗</span>
-              <span>-</span>
-              <span class="tabular-nums">{resume.personal.phoneLastFour}</span></span>
+              <span class="text-gray-900 text-sm flex gap-0.5 items-center">
+                <span class="text-sm text-gray-600">∗∗∗</span>
+                <span>-</span>
+                <span class="text-sm text-gray-600">∗∗∗</span>
+                <span>-</span>
+                <span class="tabular-nums">{resume.personal.phoneLastFour}</span>
+              </span>
             )
           }
         </div>
@@ -123,15 +128,13 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
       <section class="flex flex-col gap-4">
         <AreaHeading>Personal Highlights</AreaHeading>
 
-        {
-          resume.projects.map(project => (
-            <ProjectItem project={project} />
-          ))
-        }
+        {resume.projects.map(project => <ProjectItem project={project} />)}
       </section>
     </main>
 
-    <footer class="mt-4 -mx-8 -mb-8 bg-gray-50 py-3 px-8 text-xs text-gray-500 flex items-center justify-between">
+    <footer
+      class="mt-4 -mx-8 -mb-8 bg-gray-50 py-3 px-8 text-xs text-gray-500 flex items-center justify-between"
+    >
       <a href="https://github.com/evanpurkhiser/resume" class="hover:underline">
         Resume Source
       </a>
