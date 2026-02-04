@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "watch:pdf": "node scripts/watch-pdf.js",
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write ."
