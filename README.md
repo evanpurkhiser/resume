@@ -2,6 +2,8 @@
 
 [![Build and Publish Resume](https://github.com/evanpurkhiser/resume/actions/workflows/publish.yml/badge.svg)](https://github.com/evanpurkhiser/resume/actions/workflows/publish.yml)
 
+Available at [resume.evanpurkhiser.com](https://resume.evanpurkhiser.com), also available as [Markdown](https://resume.evanpurkhiser.com/resume.md) and a [PDF](https://resume.evanpurkhiser.com/resume.pdf).
+
 My résumé built from [resume.yaml](content/resume.yaml) using Astro and compiled into a PDF.
 
 ## Build Pipeline
