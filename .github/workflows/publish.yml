@@ -30,6 +30,13 @@ jobs:
       - name: Build project and generate PDF
         run: npm run build
 
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=resume
+
       - name: Delete existing release
         continue-on-error: true
         env:
