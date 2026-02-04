@@ -50,6 +50,7 @@ jobs:
             **Date:** ${{ github.event.head_commit.timestamp }}
           files: |
             dist/resume.pdf
+            dist/resume.md
             dist/index.html
           make_latest: true
         env:
