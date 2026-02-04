@@ -28,6 +28,8 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{resume.personal.name} - Resume</title>
+    <link rel="alternate" type="text/markdown" href="/resume.md" />
+    <link rel="alternate" type="application/pdf" href="/resume.pdf" />
   </head>
   <body
     class="max-w-[8.5in] mx-auto px-8 py-6 text-gray-900 border-l border-r border-dashed border-gray-300"
