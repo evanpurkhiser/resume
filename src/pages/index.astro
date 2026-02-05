@@ -9,6 +9,9 @@ import ExperienceItem from '../components/ExperienceItem.astro';
 import ProjectItem from '../components/ProjectItem.astro';
 import LinkedInIcon from '../components/LinkedInIcon.astro';
 import PhoneDots from '../components/PhoneDots.astro';
+import ControlBar from '../components/ControlBar.astro';
+import MarkdownIcon from '../components/MarkdownIcon.astro';
+import PdfIcon from '../components/PdfIcon.astro';
 
 const resumePath = join(process.cwd(), 'content', 'resume.yaml');
 const resumeYaml = readFileSync(resumePath, 'utf8');
@@ -134,9 +137,19 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
       <footer
         class="mt-4 -mx-4 sm:-mx-8 -mb-4 sm:-mb-6 bg-slate-50 dark:bg-stone-800 py-3 px-4 sm:px-8 text-xs text-slate-500 dark:text-stone-400 flex items-center justify-between"
       >
-        <a href="https://github.com/evanpurkhiser/resume" class="hover:underline">
-          Resume Source
-        </a>
+        <div class="flex items-center gap-3">
+          <a href="https://github.com/evanpurkhiser/resume" class="hover:underline">
+            Resume Source
+          </a>
+          <a href="/resume.md" class="hover:underline flex items-center gap-1.5 print:hidden">
+            <MarkdownIcon />
+            <span>Markdown</span>
+          </a>
+          <a href="/resume.pdf" class="hover:underline flex items-center gap-1.5 print:hidden">
+            <PdfIcon />
+            <span>PDF</span>
+          </a>
+        </div>
         <span><a href="https://resume.evanpurkhiser.com" class="hover:underline">resume.evanpurkhiser.com</a> – {formattedDate}</span>
       </footer>
     </main>
