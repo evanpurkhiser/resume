@@ -245,8 +245,6 @@ projects:
         url: https://github.com/evanpurkhiser/prolink-tools
       - name: prolink-connect
         url: https://github.com/evanpurkhiser/prolink-connect
-      - name: rekordbox-parser
-        url: https://github.com/evanpurkhiser/rekordbox-parser
     description: >-
       Proprietary low-level UDP/TCP protocol reversal and implementation as a
       TypeScript Library. Electron app implemented with mobx IPC and React
