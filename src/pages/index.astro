@@ -76,41 +76,43 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
         </div>
       </header>
 
-      <section
-        class="flex flex-col sm:flex-row gap-3 sm:gap-4 sm:justify-between relative before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-[var(--resume-max-width)] before:h-px before:bg-gray-100 before:hidden sm:before:block after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-[var(--resume-max-width)] after:h-px after:bg-gray-100 after:hidden sm:after:block"
-      >
-        {
-          resume.skills.map((skillGroup, index) => (
-            <>
-              <article class="flex flex-col gap-2 sm:pt-4 sm:pb-5">
-                <AreaHeading>{skillGroup.category}</AreaHeading>
-                <ul
-                  class="text-xs md:grid md:gap-x-8 md:gap-y-0.5"
-                  style={`grid-template-columns: repeat(${index === 1 ? 3 : 2}, max-content);`}
-                >
-                  {skillGroup.items.map((item, itemIndex) => (
-                    <li class="inline md:block after:content-[',_'] after:md:content-[''] last:after:content-['']">{item}</li>
-                  ))}
-                </ul>
-              </article>
-              <div role="presentation" class="hidden sm:block w-px bg-gray-100" />
-            </>
-          ))
-        }
-        <article class="flex flex-col gap-2 sm:w-[240px] sm:shrink sm:min-w-max sm:pt-4 sm:pb-5">
-          <AreaHeading>Education</AreaHeading>
-          <div class="flex flex-row sm:flex-col gap-1 sm:gap-0">
-            <p class="text-xs font-bold sm:mb-2">{resume.education.degree}</p>
-            <p class="text-xs">{resume.education.institution}</p>
-            <p class="text-xs text-gray-500">
-              {new Date(resume.education.dates.start).getFullYear()} – {
-                resume.education.dates.end
-                  ? new Date(resume.education.dates.end).getFullYear()
-                  : 'Present'
-              }
-            </p>
-          </div>
-        </article>
+      <section>
+        <div role="presentation" class="hidden sm:block h-px bg-gray-100 -mx-8" />
+        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 sm:justify-between">
+          {
+            resume.skills.map((skillGroup, index) => (
+              <>
+                <article class="flex flex-col gap-2 sm:py-4">
+                  <AreaHeading>{skillGroup.category}</AreaHeading>
+                  <ul
+                    class="text-xs md:grid md:gap-x-8 md:gap-y-0.5"
+                    style={`grid-template-columns: repeat(${index === 1 ? 3 : 2}, max-content);`}
+                  >
+                    {skillGroup.items.map((item, itemIndex) => (
+                      <li class="inline md:block after:content-[',_'] after:md:content-[''] last:after:content-['']">{item}</li>
+                    ))}
+                  </ul>
+                </article>
+                <div role="presentation" class="hidden sm:block w-px bg-gray-100" />
+              </>
+            ))
+          }
+          <article class="flex flex-col gap-2 sm:w-[240px] sm:shrink sm:min-w-max sm:pt-4 sm:pb-5">
+            <AreaHeading>Education</AreaHeading>
+            <div class="flex flex-row sm:flex-col gap-1 sm:gap-0">
+              <p class="text-xs font-bold sm:mb-2">{resume.education.degree}</p>
+              <p class="text-xs">{resume.education.institution}</p>
+              <p class="text-xs text-gray-500">
+                {new Date(resume.education.dates.start).getFullYear()} – {
+                  resume.education.dates.end
+                    ? new Date(resume.education.dates.end).getFullYear()
+                    : 'Present'
+                }
+              </p>
+            </div>
+          </article>
+        </div>
+        <div role="presentation" class="hidden sm:block h-px bg-gray-100 -mx-8" />
       </section>
 
       <section class="flex flex-col gap-2">
@@ -135,7 +137,7 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
     </main>
 
     <footer
-      class="mt-4 -mx-8 -mb-8 bg-gray-50 py-3 px-8 text-xs text-gray-500 flex items-center justify-between"
+      class="mt-4 -mx-4 sm:-mx-8 -mb-4 sm:-mb-8 bg-gray-50 py-3 px-4 sm:px-8 text-xs text-gray-500 flex items-center justify-between"
     >
       <a href="https://github.com/evanpurkhiser/resume" class="hover:underline">
         Resume Source
