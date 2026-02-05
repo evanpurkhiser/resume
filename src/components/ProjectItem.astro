@@ -17,7 +17,7 @@ const {project} = Astro.props;
           const isGitHub = link.url.includes('github.com');
           const iconClass = isGitHub ? 'github-link' : 'link-icon';
           return (
-            <a href={link.url} class={`text-xs sm:text-sm text-gray hover:underline whitespace-nowrap ${iconClass}`}>
+            <a href={link.url} class={`text-xs sm:text-sm text-slate-600 hover:underline whitespace-nowrap ${iconClass}`}>
               {link.name}
             </a>
           );

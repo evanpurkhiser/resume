@@ -26,7 +26,7 @@
   }
 
   a:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: theme(colors.slate.950 / 5%);
   }
 
   .experience-bullet {
