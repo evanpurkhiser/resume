@@ -10,21 +10,18 @@ const {project} = Astro.props;
 ---
 
 <ItemCard title={project.name}>
-  <div slot="trailing" class="flex items-baseline gap-4 sm:gap-6">
-    {
-      project.website && (
-        <a href={project.website} class="text-xs sm:text-sm text-gray-600 hover:underline whitespace-nowrap">
-          {project.website}
-        </a>
-      )
-    }
+  <div slot="trailing" class="flex flex-wrap items-baseline gap-x-4 gap-y-1 sm:gap-x-6">
     {
       project.links &&
-        project.links.map(link => (
-          <a href={link.url} class="text-xs sm:text-sm text-gray-600 hover:underline github-link whitespace-nowrap">
-            {link.name}
-          </a>
-        ))
+        project.links.map(link => {
+          const isGitHub = link.url.includes('github.com');
+          const iconClass = isGitHub ? 'github-link' : 'link-icon';
+          return (
+            <a href={link.url} class={`text-xs sm:text-sm text-gray hover:underline whitespace-nowrap ${iconClass}`}>
+              {link.name}
+            </a>
+          );
+        })
     }
   </div>
   <p class="prose-text">{project.description}</p>

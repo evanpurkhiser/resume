@@ -88,16 +88,8 @@ function generateMarkdown(resume: Resume): string {
     sections.push(`### ${project.name}`);
 
     // Links
-    const links: string[] = [];
-    if (project.website) {
-      links.push(`Website: ${project.website}`);
-    }
-    if (project.links) {
-      for (const link of project.links) {
-        links.push(`[${link.name}](${link.url})`);
-      }
-    }
-    if (links.length > 0) {
+    if (project.links && project.links.length > 0) {
+      const links = project.links.map(link => `[${link.name}](${link.url})`);
       sections.push(links.join(', '));
     }
 

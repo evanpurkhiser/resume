@@ -238,8 +238,9 @@ experience:
 
 projects:
   - name: Prolink Tools
-    website: https://prolink.tools
     links:
+      - name: prolink.tools
+        url: https://prolink.tools
       - name: prolink-tools
         url: https://github.com/evanpurkhiser/prolink-tools
       - name: prolink-connect

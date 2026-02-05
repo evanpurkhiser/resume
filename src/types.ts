@@ -38,7 +38,6 @@ export interface ProjectLink {
 
 export interface Project {
   name: string;
-  website?: string;
   links?: ProjectLink[];
   description: string;
 }

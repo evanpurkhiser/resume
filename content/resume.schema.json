@@ -190,11 +190,6 @@
           "type": "string",
           "description": "Project name"
         },
-        "website": {
-          "type": "string",
-          "format": "uri",
-          "description": "Project website URL"
-        },
         "links": {
           "type": "array",
           "description": "Related links or repositories",
