@@ -8,6 +8,7 @@ import AreaHeading from '../components/AreaHeading.astro';
 import ExperienceItem from '../components/ExperienceItem.astro';
 import ProjectItem from '../components/ProjectItem.astro';
 import LinkedInIcon from '../components/LinkedInIcon.astro';
+import PhoneDots from '../components/PhoneDots.astro';
 
 const resumePath = join(process.cwd(), 'content', 'resume.yaml');
 const resumeYaml = readFileSync(resumePath, 'utf8');
@@ -65,10 +66,9 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
           {
             resume.personal.phoneLastFour && (
               <span class="hidden md:flex text-slate-900 dark:text-stone-300 text-xs md:text-sm gap-0.5 items-center">
-                <span class="text-xs md:text-sm text-slate-600 dark:text-stone-400">∗∗∗</span>
-                <span>-</span>
-                <span class="text-xs md:text-sm text-slate-600 dark:text-stone-400">∗∗∗</span>
-                <span>-</span>
+                <span class="flex items-center gap-0.5 text-slate-600 dark:text-stone-400">
+                  (<PhoneDots />)-<PhoneDots />-
+                </span>
                 <span class="tabular-nums">{resume.personal.phoneLastFour}</span>
               </span>
             )
