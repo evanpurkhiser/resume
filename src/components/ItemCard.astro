@@ -8,8 +8,8 @@ const {title, subtitle} = Astro.props;
 ---
 
 <article class="flex flex-col gap-1">
-  <header class="flex flex-wrap justify-between items-baseline">
-    <div class="flex flex-wrap items-baseline gap-2 shrink">
+  <header class="flex flex-wrap gap-x-1 justify-between items-baseline">
+    <div class="flex flex-wrap items-baseline gap-x-2">
       <h3 class="text-base sm:text-lg font-bold whitespace-nowrap">{title}</h3>
       {subtitle && <p class="text-sm sm:text-md whitespace-nowrap">{subtitle}</p>}
     </div>
