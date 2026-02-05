@@ -32,10 +32,8 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
     <link rel="alternate" type="text/markdown" href="/resume.md" />
     <link rel="alternate" type="application/pdf" href="/resume.pdf" />
   </head>
-  <body
-    class="max-w-[var(--resume-max-width)] mx-auto px-4 sm:px-8 py-4 sm:py-6 text-slate-900 dark:text-stone-300 dark:bg-stone-950 lg:border-x lg:border-dashed lg:border-slate-300 dark:lg:border-stone-800"
-  >
-    <main class="flex flex-col gap-4 sm:gap-6">
+  <body class="dark:bg-stone-900">
+    <main class="max-w-[var(--resume-max-width)] mx-auto px-4 sm:px-8 py-4 sm:py-6 text-slate-900 dark:text-stone-300 lg:border-x lg:border-dashed lg:border-slate-300 dark:lg:border-stone-700 flex flex-col gap-4 sm:gap-6">
       <header class="flex justify-between items-start md:items-center gap-3">
         <div>
           <h1 class="text-2xl md:text-3xl font-bold">{resume.personal.name}</h1>
@@ -77,7 +75,7 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
       </header>
 
       <section
-        class="flex flex-col sm:flex-row gap-3 sm:gap-4 sm:justify-between sm:border-y sm:border-slate-100 dark:sm:border-stone-900 sm:-mx-8 sm:px-8"
+        class="flex flex-col sm:flex-row gap-3 sm:gap-4 sm:justify-between sm:border-y sm:border-slate-100 dark:sm:border-stone-800 sm:-mx-8 sm:px-8"
       >
         {
           resume.skills.map((skillGroup, index) => (
@@ -93,16 +91,16 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
                   ))}
                 </ul>
               </article>
-              <div role="presentation" class="hidden sm:block w-px bg-slate-100 dark:bg-stone-900" />
+              <div role="presentation" class="hidden sm:block w-px bg-slate-100 dark:bg-stone-800" />
             </>
           ))
         }
         <article class="flex flex-col gap-2 sm:w-[240px] sm:shrink sm:min-w-max sm:pt-4 sm:pb-5">
           <AreaHeading>Education</AreaHeading>
-          <div class="flex flex-row sm:flex-col gap-1 sm:gap-0">
-            <p class="text-xs font-bold sm:mb-2">{resume.education.degree}</p>
-            <p class="text-xs">{resume.education.institution}</p>
-            <p class="text-xs text-slate-500 dark:text-stone-400">
+          <div class="flex flex-row flex-wrap sm:flex-col gap-1 sm:gap-0">
+            <p class="text-xs font-bold sm:mb-2 whitespace-nowrap">{resume.education.degree}</p>
+            <p class="text-xs whitespace-nowrap">{resume.education.institution}</p>
+            <p class="text-xs text-slate-500 dark:text-stone-400 whitespace-nowrap">
               {new Date(resume.education.dates.start).getFullYear()} – {
                 resume.education.dates.end
                   ? new Date(resume.education.dates.end).getFullYear()
@@ -132,15 +130,15 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
 
         {resume.projects.map(project => <ProjectItem project={project} />)}
       </section>
-    </main>
 
-    <footer
-      class="mt-4 -mx-4 sm:-mx-8 -mb-4 sm:-mb-6 bg-slate-50 dark:bg-stone-900 py-3 px-4 sm:px-8 text-xs text-slate-500 dark:text-stone-400 flex items-center justify-between"
-    >
-      <a href="https://github.com/evanpurkhiser/resume" class="hover:underline">
-        Resume Source
-      </a>
-      <span><a href="https://resume.evanpurkhiser.com" class="hover:underline">resume.evanpurkhiser.com</a> – {formattedDate}</span>
-    </footer>
+      <footer
+        class="mt-4 -mx-4 sm:-mx-8 -mb-4 sm:-mb-6 bg-slate-50 dark:bg-stone-800 py-3 px-4 sm:px-8 text-xs text-slate-500 dark:text-stone-400 flex items-center justify-between"
+      >
+        <a href="https://github.com/evanpurkhiser/resume" class="hover:underline">
+          Resume Source
+        </a>
+        <span><a href="https://resume.evanpurkhiser.com" class="hover:underline">resume.evanpurkhiser.com</a> – {formattedDate}</span>
+      </footer>
+    </main>
   </body>
 </html>
