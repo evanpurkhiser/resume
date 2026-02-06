@@ -1,7 +1,17 @@
 @import 'tailwindcss';
 
+/* Load Inter font for the → character only (looks nicer than Helvetica's version) */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZhzjlcGCQ&skey=c491285d6722e4fa&v=v20&text=%E2%86%92) format('truetype');
+  unicode-range: U+2192;
+}
+
 @theme {
-  --font-sans: 'Helvetica Neue', 'Nimbus Sans', 'Helvetica', 'Arial', sans-serif;
+  --font-sans: 'Inter', 'Helvetica Neue', 'Nimbus Sans', 'Helvetica', 'Arial', sans-serif;
   --resume-max-width: 8.5in;
   --breakpoint-lg: 8.5in;
 }
