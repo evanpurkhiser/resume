@@ -143,14 +143,14 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
           </a>
           <a href="/resume.md" class="hover:underline flex items-center gap-1.5 print:hidden">
             <MarkdownIcon />
-            <span>Markdown</span>
+            <span class="hidden sm:inline">Markdown</span>
           </a>
           <a href="/resume.pdf" class="hover:underline flex items-center gap-1.5 print:hidden">
             <PdfIcon />
-            <span>PDF</span>
+            <span class="hidden sm:inline">PDF</span>
           </a>
         </div>
-        <span><a href="https://resume.evanpurkhiser.com" class="hover:underline">resume.evanpurkhiser.com</a> – {formattedDate}</span>
+        <span><span class="hidden sm:inline"><a href="https://resume.evanpurkhiser.com" class="hover:underline">resume.evanpurkhiser.com</a> – </span>{formattedDate}</span>
       </footer>
     </main>
   </body>
