@@ -52,6 +52,7 @@ export interface Resume {
   personal: Personal;
   skills: SkillCategory[];
   education: Education;
+  summary?: string;
   experience: Experience[];
   projects: Project[];
 }

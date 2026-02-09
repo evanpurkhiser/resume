@@ -114,6 +114,12 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
         </article>
       </section>
 
+      {
+        resume.summary && (
+          <section class="text-sm leading-relaxed">{resume.summary}</section>
+        )
+      }
+
       <section class="flex flex-col gap-2">
         <AreaHeading>Experiences</AreaHeading>
 

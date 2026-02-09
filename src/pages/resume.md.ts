@@ -57,6 +57,12 @@ function generateMarkdown(resume: Resume): string {
   );
   sections.push('');
 
+  // Summary
+  if (resume.summary) {
+    sections.push(resume.summary);
+    sections.push('');
+  }
+
   // Experience
   sections.push('## Experience\n');
   for (const job of resume.experience) {
