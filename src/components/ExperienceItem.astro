@@ -29,7 +29,9 @@ marked.use({
   {
     experience.sections.map(section => (
       <section class="flex flex-col gap-1">
-        {section.heading && <h4 class="text-sm text-slate-500 dark:text-stone-400">{section.heading}</h4>}
+        {section.heading && (
+          <h4 class="text-sm text-slate-500 dark:text-stone-400">{section.heading}</h4>
+        )}
         <ul class="flex flex-col gap-2">
           {section.bullets.map(bullet => (
             <li class="experience-bullet" set:html={marked.parseInline(bullet)} />

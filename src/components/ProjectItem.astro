@@ -24,7 +24,10 @@ marked.use({
           const isGitHub = link.url.includes('github.com');
           const iconClass = isGitHub ? 'github-link' : 'link-icon';
           return (
-            <a href={link.url} class={`text-xs sm:text-sm text-slate-600 dark:text-stone-400 hover:underline whitespace-nowrap ${iconClass}`}>
+            <a
+              href={link.url}
+              class={`text-xs sm:text-sm text-slate-600 dark:text-stone-400 hover:underline whitespace-nowrap ${iconClass}`}
+            >
               {link.name}
             </a>
           );

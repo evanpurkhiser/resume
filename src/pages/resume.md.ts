@@ -106,7 +106,9 @@ function generateMarkdown(resume: Resume): string {
 
   // Alternative versions
   sections.push('---\n');
-  sections.push('**Alternative Versions:** [HTML](https://resume.evanpurkhiser.com) | [PDF](https://resume.evanpurkhiser.com/resume.pdf)');
+  sections.push(
+    '**Alternative Versions:** [HTML](https://resume.evanpurkhiser.com) | [PDF](https://resume.evanpurkhiser.com/resume.pdf)'
+  );
 
   return sections.join('\n');
 }
