@@ -17,7 +17,7 @@
 }
 
 :root {
-  --prose-text-size: theme(fontSize.xs);
+  --prose-text-size: 13px;
 }
 
 @media print {
