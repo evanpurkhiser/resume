@@ -120,19 +120,11 @@
 @media print {
   @page {
     margin: 0;
-    size: letter;
+    size: 8.5in auto;
   }
 
   body {
     border-left: none;
     border-right: none;
-  }
-
-  footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
   }
 }

@@ -36,7 +36,7 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
     <link rel="alternate" type="application/pdf" href="/resume.pdf" />
   </head>
   <body class="dark:bg-stone-900">
-    <main class="max-w-[var(--resume-max-width)] mx-auto px-4 sm:px-8 py-4 sm:py-6 text-slate-900 dark:text-stone-300 lg:border-x lg:border-dashed lg:border-slate-300 dark:lg:border-stone-700 flex flex-col gap-4 sm:gap-6">
+    <main class="max-w-[var(--resume-max-width)] mx-auto px-4 sm:px-8 py-4 sm:py-6 text-slate-900 dark:text-stone-300 lg:border-x print:border-x-0 lg:border-dashed lg:border-slate-300 dark:lg:border-stone-700 flex flex-col gap-4 sm:gap-6">
       <header class="flex justify-between items-start md:items-center gap-3">
         <div>
           <h1 class="text-2xl md:text-3xl font-bold">{resume.personal.name}</h1>
@@ -135,7 +135,7 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
       </section>
 
       <footer
-        class="mt-4 -mx-4 sm:-mx-8 -mb-4 sm:-mb-6 bg-slate-50 dark:bg-stone-800 py-3 px-4 sm:px-8 text-xs text-slate-500 dark:text-stone-400 flex items-center justify-between"
+        class="-mx-4 -mt-2 sm:-mx-8 -mb-4 sm:-mb-6 bg-slate-50 dark:bg-stone-800 py-3 px-4 sm:px-8 text-xs text-slate-500 dark:text-stone-400 flex items-center justify-between"
       >
         <div class="flex items-center gap-3">
           <a href="https://github.com/evanpurkhiser/resume" class="hover:underline">

@@ -6,8 +6,6 @@ export default function pdfGenerator() {
     name: 'pdf-generator',
     hooks: {
       'astro:build:done': async ({dir}) => {
-        console.log('Generating PDF...');
-
         const htmlPath = join(dir.pathname, 'index.html');
         const outputPath = join(dir.pathname, 'resume.pdf');
 
@@ -15,12 +13,15 @@ export default function pdfGenerator() {
         const page = await browser.newPage();
 
         const url = `file://${htmlPath}`;
-        console.log(`Loading page from: ${url}`);
         await page.goto(url, {waitUntil: 'networkidle'});
+
+        // Get the full height of the page content
+        const bodyHeight = await page.evaluate(() => document.body.scrollHeight);
 
         await page.pdf({
           path: outputPath,
-          format: 'Letter',
+          width: '8.5in',
+          height: `${bodyHeight}px`,
           printBackground: true,
           margin: {
             top: 0,
@@ -28,13 +29,11 @@ export default function pdfGenerator() {
             bottom: 0,
             left: 0,
           },
-          preferCSSPageSize: true,
           tagged: false,
           outline: false,
         });
 
         await browser.close();
-        console.log(`PDF generated successfully: ${outputPath}`);
       },
     },
   };
