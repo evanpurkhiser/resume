@@ -3,39 +3,34 @@ $schema: ./resume.schema.json
 
 personal:
   name: Evan Purkhiser
-  title: Staff Software Engineer
+  title: Full Stack Systems Engineer
   location: New York City
   email: evanpurkhiser@gmail.com
   website: https://evanpurkhiser.com
   linkedin: https://www.linkedin.com/in/evanpurkhiser
-  phoneLastFour: "0474"
+  phoneLastFour: '0474'
 
 skills:
   - category: Languages / Libraries
     items:
       - TypeScript / React
       - Python / Django
-      - NodeJS
-      - Postgres / SQLite
-      - Golang
-      - PHP
       - Rust
-      - Framer Motion
+      - Postgres SQL
+      - Golang
+      - Node.js
 
   - category: Tools / Software
     items:
       - MacOS / Linux
       - git
       - Redis
-      - Claude Code
       - Neovim
       - Nginx
       - GitHub Actions
-      - Datadog
+      - Datadog / Sentry
       - Docker
-      - Ansible
-      - Bash
-      - Kafka
+      - Bash / Shell
 
 education:
   degree: B.S. Computer Science
@@ -56,86 +51,64 @@ experience:
     dates:
       start: 2017-08-01
     sections:
-      - heading: Product Engineering
+      - heading: Shipping Products
         bullets:
           - >-
-            Architected and launched the Uptime Monitoring product end-to-end
-            from conception to production. Including a highly-concurrent Rust
-            HTTP uptime checker, Python Kafka consumer, RDAP/WHOIS host
-            association, and complete frontend product user experience.
+            Launched [Uptime
+            Monitoring](https://docs.sentry.io/product/uptime-monitoring/) from
+            zero to GA, owning the entire architecture across a
+            high-concurrency Rust checker, Kafka pipeline, Python processor,
+            and React frontend; scaled to 100k+ customer monitors.
           - >-
-            Led multi-year evolution of Cron Monitoring product, processing 15MM+
-            check-ins daily, architecting multiple Kafka-based lock-step timing
-            sensitive consumers for distributed check-in processing with
-            real-time synthetic "miss" and "timeout" detection, coupled with
-            retrospective check-in volume anomaly analysis, to filter false
-            positive alerts during internal upstream ingestion incidents.
+            Led multi-year end-to-end ownership of [Cron
+            Monitoring](https://docs.sentry.io/product/crons/), evolving it
+            from early PoC to a highly reliable system processing 60M+ daily
+            check-ins, including timing-sensitive processors, internal anomaly
+            detection, and frontend user experience.
           - >-
-            Built Slack integration from ground up atop the integration
-            platform, including message unfurling for Sentry issue links,
-            interactive issue actions (assign/resolve/ignore/archive), DM
-            support, and user identity linking. With rapid growth and is
-            Sentry's most used integration.
+            Built Slack Integration from ground up atop the integration
+            platform. Becoming our most used integration, over 120k+ orgs.
           - >-
-            Built GitHub, Bitbucket, and Jira integrations, for commit linking,
-            stack trace source mapping, and issue syncing workflows.
-          - >-
-            Implemented a complete spec-compliant SAML2 integration generalized
-            across multiple identity providers.
-          - >-
-            Rebuilt user onboarding experience from scratch with meticulous
-            attention to frontend polish, micro-interactions, and delightful
-            animations to create a joyful first impression of Sentry. Including
-            A/B testing framework, comprehensive analytics tracking, and task
-            completion system.
+            Rebuilt onboarding experience with a heavy focus on clarity, polish, and
+            micro-interactions. Creating strong first impressions.
 
-      - heading: Platform & Infrastructure
+      - heading: Platform Engineering
         bullets:
           - >-
-            Architected an integrations platform enabling rapid development of
-            third-party integrations, building core infrastructure for OAuth
-            flows, provider configuration flows, feature gating, permissions
-            management, and generalized frontend components.
+            Designed and implemented a generalized integrations platform
+            (OAuth, permissions, feature gating, UI primitives), unlocking
+            rapid development of Slack, GitHub, Jira, Vercel, etc
+            integrations.
           - >-
-            Implemented node-canvas backend chart rendering service for email and
-            Slack notifications, enabling shared rendering implementations between
-            backend services and frontend chart components.
+            Established a shared chart rendering pipeline across frontend and
+            backend, enabling notification charts (email, Slack, etc) to reuse
+            frontend code. Significantly reducing maintenance overhead and
+            ensuring consistent presentation.
           - >-
-            Implemented parsing expression grammar via PEG.js, producing
-            fully-typed AST for incremental parsing of Sentry's custom event
-            search syntax, with careful attention to DX enabling grammar
-            reusability and maintainability, with proven reuse across multiple
-            product surfaces.
+            Reduced inconsistent frontend event search experiences by building
+            a reusable, type-safe parsing grammar. Enabling incremental parsing
+            and consistent behavior across UI surfaces, while improving
+            developer ergonomics and maintainability.
 
-      - heading: Technical Leadership & Modernization
+      - heading: Systems Stewardship
         bullets:
           - >-
-            Led Python 2→3 migration fixing thousands of compatibility issues
-            across the entire monolith, correcting byte/string encoding, pickle
-            serialization, and HTTP client usage for cross-version
-            compatibility. Includes designing a slow-roll-out strategy for the
-            migration.
+            Led Python 2 → 3 migration across the monolith, unblocking
+            dependency upgrades and future platform work.
+          - >-
+            Proactively led multi-year frontend modernization efforts to
+            preempt scaling and maintainability risks. Areas included upgrading
+            routing infrastructure (React Router 3→6), component architecture
+            (class → functional), and testing strategy (Enzyme → React Testing
+            Library). Enabling faster, safer iteration and higher engineering
+            velocity across the organization.
           - >-
             Drove TypeScript adoption converting 500+ JavaScript files to
             TypeScript across all aspects of Sentry's frontend application.
           - >-
-            Spearheaded Frontend testing modernization initiative migrating
-            300+ test files from Enzyme to React Testing Library, establishing
-            new testing patterns focused on user behavior over implementation
-            details and improving test reliability across engineering
-            organization.
-          - >-
-            Orchestrated comprehensive Frontend modernization across the
-            monolith including routing infrastructure upgrade (React Router
-            3→6), component architecture refactor (100 class components to
-            hooks-based patterns), and build toolchain upgrades (Node.js,
-            webpack, Babel, TypeScript) enabling code splitting and lazy
-            loading, deployed zero-downtime via backward-compatible
-            abstractions.
-          - >-
-            Reduced CI build time by 40% with a multi-stage GHA docker test
-            image which caches unchanged dependencies.
-      - heading: Organizational Impact
+            Cut CI build times by 40% via a GitHub Actions Docker test image
+            with dependency caching.
+      - heading: Organizational Level Leadership
         bullets:
           - >-
             Led Frontend Technical Steering Committee accomplishing complete
@@ -143,13 +116,8 @@ experience:
             React modernizations, and testing infrastructure improvements
             across 7+ product teams.
           - >-
-            Mentored engineers across teams on SDLC best practices, modern React
-            patterns, TypeScript adoption, testing strategies, and frontend
-            architecture decisions.
-          - >-
-            Established engineering standards and best practices through 7,500+
-            commits over 8 years, demonstrating sustained technical leadership
-            and execution.
+            Mentored engineers on system design, UX interaction, testing
+            philosophy, and pragmatic tasteful decision making.
 
   - company: Crunchyroll / VRV
     title: Senior Software Engineer
@@ -194,10 +162,9 @@ projects:
       - name: prolink-connect
         url: https://github.com/evanpurkhiser/prolink-connect
     description: >-
-      Proprietary low-level UDP/TCP protocol reversal and implementation as a
-      TypeScript Library. Electron app implemented with mobx IPC and React
-      websocket based OBS overlay. Allows DJs to live-stream real-time track
-      titles with configurable animated transitions.
+      Reverse-engineered and implemented a proprietary UDP/TCP protocol as a
+      TypeScript library; built as an Electron + React app enabling DJs to
+      stream real-time track metadata with broadcast-quality transitions.
 
   - name: Dots – Dotfile Manager
     links:
@@ -206,5 +173,5 @@ projects:
       - name: dots-personal
         url: https://github.com/evanpurkhiser/dots-personal
     description: >-
-      Novel "cascading" dot configuration management solution for sharing
-      personal dot configuration files across systems and platforms.
+      Cascading configuration management solution for sharing personal dot
+      configuration files across systems and platforms.
