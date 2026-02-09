@@ -1,12 +1,19 @@
 ---
 import type {Project} from '../types';
 import ItemCard from './ItemCard.astro';
+import {marked} from 'marked';
 
 interface Props {
   project: Project;
 }
 
 const {project} = Astro.props;
+
+// Configure marked to render inline markdown
+marked.use({
+  mangle: false,
+  headerIds: false,
+});
 ---
 
 <ItemCard title={project.name}>
@@ -24,5 +31,5 @@ const {project} = Astro.props;
         })
     }
   </div>
-  <p class="prose-text">{project.description}</p>
+  <p class="prose-text" set:html={marked.parseInline(project.description)} />
 </ItemCard>
