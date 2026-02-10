@@ -40,6 +40,12 @@ function generateMarkdown(resume: Resume): string {
   }
   sections.push('');
 
+  // Summary
+  if (resume.summary) {
+    sections.push(resume.summary);
+    sections.push('');
+  }
+
   // Skills
   sections.push('## Skills\n');
   for (const skillGroup of resume.skills) {
@@ -56,12 +62,6 @@ function generateMarkdown(resume: Resume): string {
     formatDateRange(resume.education.dates.start, resume.education.dates.end)
   );
   sections.push('');
-
-  // Summary
-  if (resume.summary) {
-    sections.push(resume.summary);
-    sections.push('');
-  }
 
   // Experience
   sections.push('## Experience\n');

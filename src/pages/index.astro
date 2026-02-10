@@ -92,6 +92,12 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
         </div>
       </header>
 
+      {
+        resume.summary && (
+          <section class="text-sm leading-relaxed">{resume.summary}</section>
+        )
+      }
+
       <section
         class="flex flex-col sm:flex-row gap-3 sm:gap-4 sm:justify-between sm:border-y sm:border-slate-100 dark:sm:border-stone-800 sm:-mx-8 sm:px-8"
       >
@@ -137,12 +143,6 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
           </div>
         </article>
       </section>
-
-      {
-        resume.summary && (
-          <section class="text-sm leading-relaxed">{resume.summary}</section>
-        )
-      }
 
       <section class="flex flex-col gap-2">
         <AreaHeading>Experiences</AreaHeading>

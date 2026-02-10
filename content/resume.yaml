@@ -3,7 +3,7 @@ $schema: ./resume.schema.json
 
 personal:
   name: Evan Purkhiser
-  title: Full Stack Systems Engineer
+  title: Full-Stack Systems Engineer
   location: New York City
   email: evanpurkhiser@gmail.com
   website: https://evanpurkhiser.com
@@ -40,7 +40,7 @@ education:
     end: 2013-05-01
 
 summary: >-
-  Full Stack Engineer with a 15 year career of building and scaling product
+  Full-Stack Engineer with a 15-year career of building and scaling product
   experiences. Passionate about UX details, code quality, and developer
   experience. Known for end-to-end ownership and acting as an engineering
   force-multiplier.
@@ -117,7 +117,7 @@ experience:
             across 7+ product teams.
           - >-
             Mentored engineers on system design, UX interaction, testing
-            philosophy, and pragmatic tasteful decision making.
+            philosophy, and pragmatic tasteful decision-making.
 
   - company: Crunchyroll / VRV
     title: Senior Software Engineer
@@ -137,7 +137,7 @@ experience:
           - >-
             Promoted quality coding standards, git best practices, review best
             practices, automated style lint tooling, and improved developer
-            environment tooling throughout the organization for a high quality
+            environment tooling throughout the organization for a high-quality
             developer experience.
 
   - company: Acadaware
