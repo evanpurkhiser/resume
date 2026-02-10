@@ -66,11 +66,11 @@ experience:
             check-ins, including timing-sensitive processors, internal anomaly
             detection, and frontend user experience.
           - >-
-            Built Slack Integration from ground up atop the integration
-            platform. Becoming our most used integration, over 120k+ orgs.
+            Built Slack Integration from the ground up atop the integration
+            platform, becoming our most used integration, 120k+ orgs.
           - >-
             Rebuilt onboarding experience with a heavy focus on clarity, polish, and
-            micro-interactions. Creating strong first impressions.
+            micro-interactions, creating strong first impressions.
 
       - heading: Platform Engineering
         bullets:
@@ -82,11 +82,11 @@ experience:
           - >-
             Established a shared chart rendering pipeline across frontend and
             backend, enabling notification charts (email, Slack, etc) to reuse
-            frontend code. Significantly reducing maintenance overhead and
+            frontend code, significantly reducing maintenance overhead and
             ensuring consistent presentation.
           - >-
             Reduced inconsistent frontend event search experiences by building
-            a reusable, type-safe parsing grammar. Enabling incremental parsing
+            a reusable, type-safe parsing grammar, enabling incremental parsing
             and consistent behavior across UI surfaces, while improving
             developer ergonomics and maintainability.
 
@@ -103,7 +103,7 @@ experience:
             Library). Enabling faster, safer iteration and higher engineering
             velocity across the organization.
           - >-
-            Drove TypeScript adoption converting 500+ JavaScript files to
+            Drove TypeScript adoption, converting 500+ JavaScript files to
             TypeScript across all aspects of Sentry's frontend application.
           - >-
             Cut CI build times by 40% via a GitHub Actions Docker test image
@@ -111,7 +111,7 @@ experience:
       - heading: Organizational Level Leadership
         bullets:
           - >-
-            Led Frontend Technical Steering Committee accomplishing complete
+            Led Frontend Technical Steering Committee, accomplishing complete
             migration to TypeScript, organization-wide code quality initiatives,
             React modernizations, and testing infrastructure improvements
             across 7+ product teams.
