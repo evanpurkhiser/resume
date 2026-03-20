@@ -1,13 +1,14 @@
 {
   "name": "resume",
-  "type": "module",
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "format": "prettier --write .",
+    "format": "oxfmt .",
+    "format:check": "oxfmt --check .",
     "deploy": "npm run build && wrangler pages deploy dist"
   },
   "dependencies": {
@@ -17,9 +18,8 @@
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
+    "oxfmt": "^0.41.0",
     "playwright": "^1.58.1",
-    "prettier": "^3.8.1",
-    "prettier-plugin-astro": "^0.14.1",
     "wrangler": "^4.62.0"
   }
 }

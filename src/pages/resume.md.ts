@@ -59,7 +59,7 @@ function generateMarkdown(resume: Resume): string {
   sections.push(`**${resume.education.degree}**`);
   sections.push(resume.education.institution);
   sections.push(
-    formatDateRange(resume.education.dates.start, resume.education.dates.end)
+    formatDateRange(resume.education.dates.start, resume.education.dates.end),
   );
   sections.push('');
 
@@ -107,7 +107,7 @@ function generateMarkdown(resume: Resume): string {
   // Alternative versions
   sections.push('---\n');
   sections.push(
-    '**Alternative Versions:** [HTML](https://resume.evanpurkhiser.com) | [PDF](https://resume.evanpurkhiser.com/resume.pdf)'
+    '**Alternative Versions:** [HTML](https://resume.evanpurkhiser.com) | [PDF](https://resume.evanpurkhiser.com/resume.pdf)',
   );
 
   return sections.join('\n');
