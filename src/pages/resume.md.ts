@@ -6,7 +6,7 @@ import {join} from 'path';
 import type {Resume} from '../types';
 import {formatDateRange} from '../utils/dates';
 
-export async function GET() {
+export function GET() {
   const resumePath = join(process.cwd(), 'content', 'resume.yaml');
   const resumeYaml = readFileSync(resumePath, 'utf8');
   const resume = load(resumeYaml) as Resume;
