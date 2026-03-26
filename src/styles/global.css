@@ -21,6 +21,11 @@
   --prose-text-size: 13px;
 }
 
+::selection {
+  background-color: var(--color-indigo-400);
+  color: white;
+}
+
 @media print {
   :root {
     --prose-text-size: theme(fontSize.xs);
