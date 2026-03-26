@@ -11,12 +11,12 @@ export default function pdfGenerator() {
         const outputPath = join(dir.pathname, 'resume.pdf');
 
         const browser = await chromium.launch();
-        const page = await browser.newPage();
+        const page = await browser.newPage({viewport: {width: 816, height: 1056}});
 
         const url = `file://${htmlPath}`;
         await page.goto(url, {waitUntil: 'networkidle'});
+        await page.emulateMedia({media: 'print'});
 
-        // Get the full height of the page content
         const bodyHeight = await page.evaluate(() => document.body.scrollHeight);
 
         await page.pdf({
