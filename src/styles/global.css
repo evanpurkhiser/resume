@@ -14,6 +14,7 @@
 @theme {
   --font-sans: 'Inter', 'Helvetica Neue', 'Nimbus Sans', 'Helvetica', 'Arial', sans-serif;
   --resume-max-width: 8.5in;
+  --resume-margin: calc(12 * var(--spacing));
   --breakpoint-lg: 8.5in;
 }
 
@@ -25,6 +26,40 @@
   background-color: var(--color-indigo-400);
   color: white;
 }
+
+@media (width >= theme(--breakpoint-lg)) {
+  .resume-page::before,
+  .resume-page::after {
+    content: '';
+    position: absolute;
+    left: calc(-50vw + 50%);
+    width: 100vw;
+    border-top: 1px dashed var(--color-slate-300);
+  }
+
+  @media print {
+    .resume-page::before,
+    .resume-page::after {
+      display: none;
+    }
+  }
+
+  .resume-page::before {
+    top: var(--resume-margin);
+  }
+
+  .resume-page::after {
+    bottom: var(--resume-margin);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .resume-page::before,
+    .resume-page::after {
+      border-color: var(--color-stone-700);
+    }
+  }
+}
+
 
 @media print {
   :root {
