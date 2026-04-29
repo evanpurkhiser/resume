@@ -1,8 +1,8 @@
 ---
 import '../styles/global.css';
-import {readFileSync, statSync} from 'fs';
+import {readFileSync, statSync} from 'node:fs';
 import {load} from 'js-yaml';
-import {join} from 'path';
+import {join} from 'node:path';
 import type {Resume} from '../types';
 import AreaHeading from '../components/AreaHeading.astro';
 import ExperienceItem from '../components/ExperienceItem.astro';
