@@ -2,7 +2,16 @@
   "name": "resume",
   "version": "0.0.1",
   "type": "module",
-  "packageManager": "pnpm@10.15.1",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.15.0"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.0.0"
+    }
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -27,12 +36,5 @@
     "oxlint": "^1.62.0",
     "playwright": "^1.58.1",
     "wrangler": "^4.62.0"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "sharp",
-      "workerd"
-    ]
   }
 }
