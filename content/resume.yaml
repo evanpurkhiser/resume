@@ -162,9 +162,10 @@ projects:
       - name: prolink-connect
         url: https://github.com/evanpurkhiser/prolink-connect
     description: >-
-      Reverse-engineered and implemented a proprietary UDP/TCP protocol as a
-      TypeScript library; built as an Electron + React app enabling DJs to
-      stream real-time track metadata with broadcast-quality transitions.
+      Reverse-engineered and implemented a proprietary Pioneer DJ UDP/TCP
+      protocol as a TypeScript library; built as an Electron + React app
+      enabling DJs to stream real-time track metadata with broadcast-quality
+      transitions.
 
   - name: Dots – Dotfile Manager
     links:
