@@ -1,6 +1,6 @@
 import {chromium} from 'playwright';
 
-import {join} from 'path';
+import {join} from 'node:path';
 
 export default function pdfGenerator() {
   return {

@@ -60,7 +60,6 @@
   }
 }
 
-
 @media print {
   :root {
     --prose-text-size: theme(fontSize.xs);
